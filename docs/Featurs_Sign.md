@@ -9,7 +9,7 @@ All documents can be signed online with our electronic signature by document own
 
 ### Sign documents as document owner
 In order to sign documents online using our free built-in electronic signature, follow those steps:
-1. [Login](https://www.conholdate.app/signin) to your account or [register](https://www.conholdate.app/signin) if you do not own one yet. It's FREE!
+1. [Login](https://conholdate.app/signin) to your account or [register](https://conholdate.app/signin) if you do not own one yet. It's FREE!
 1. Go to your [dashboard](https://dashboard.conholdate.app).
 1. Click on `Upload` button and upload a document.
 1. Wait until uploading and processing is complete, then click on <i class="fas fa-ellipsis-v"></i> icon and select `Sign`.
@@ -19,7 +19,7 @@ In order to sign documents online using our free built-in electronic signature, 
 ### Share and send documents for e-signatures
 When you need someone to e-sign your document, you can share documents for e-signatures by creating shared link.
 > For signing documents by shared link no registration is required.
-1. [Login](https://www.conholdate.app/signin) to your account or [register](https://www.conholdate.app/signin) if you do not own one yet. It's FREE!
+1. [Login](https://conholdate.app/signin) to your account or [register](https://conholdate.app/signin) if you do not own one yet. It's FREE!
 1. Go to your [dashboard](https://dashboard.conholdate.app).
 1. Click on `Upload` button and upload a document.
 1. Wait until uploading and processing is complete, then click on <i class="fas fa-link"></i> icon.
