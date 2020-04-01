@@ -8,7 +8,7 @@ View DOCX, XLSX, PPTX and over 100+ document formats online without intalling an
 
 ## How to view documents online
 In order to view documents using our free online built-in document viewer, follow those steps:
-1. [Login](https://www.conholdate.app/signin) to your account or [register](https://www.conholdate.app/signin) if you do not own one yet. It's FREE!
+1. [Login](https://conholdate.app/signin) to your account or [register](https://conholdate.app/signin) if you do not own one yet. It's FREE!
 1. Go to your [dashboard](https://dashboard.conholdate.app).
 1. Click on `Upload` button and upload a document.
 1. Wait until uploading and processing is complete, then click on document name to view document.
@@ -19,7 +19,7 @@ Besides viewing documents online, our document viewer offers other usefull featu
 ### Print documents
 Need to view and print an MS Office document but don't have required software installed?
 With our online document viewer you can print any document by following those steps:
-1. [Login](https://www.conholdate.app/signin) to your account or [register](https://www.conholdate.app/signin) if you do not own one yet. It's FREE!
+1. [Login](https://conholdate.app/signin) to your account or [register](https://conholdate.app/signin) if you do not own one yet. It's FREE!
 1. Go to your [dashboard](https://dashboard.conholdate.app).
 1. Click on `Upload` button and upload a document.
 1. Wait until uploading and processing is complete, then click on document name to open to open it with document viewer app.
@@ -27,7 +27,7 @@ With our online document viewer you can print any document by following those st
 
 ### Search text in documents
 Search text in your documents, it's easy ans simple!
-1. [Login](https://www.conholdate.app/signin) to your account or [register](https://www.conholdate.app/signin) if you do not own one yet. It's FREE!
+1. [Login](https://conholdate.app/signin) to your account or [register](https://conholdate.app/signin) if you do not own one yet. It's FREE!
 1. Go to your [dashboard](https://dashboard.conholdate.app).
 1. Click on `Upload` button and upload a document.
 1. Wait until uploading and processing is complete, then click on document name to open to open it with document viewer app.
@@ -35,7 +35,7 @@ Search text in your documents, it's easy ans simple!
 
 ### Zoom in and out documents
 Zoom in and out all your documents without quality loss thanks to our document viewer HTML5 engine.
-1. [Login](https://www.conholdate.app/signin) to your account or [register](https://www.conholdate.app/signin) if you do not own one yet. It's FREE!
+1. [Login](https://conholdate.app/signin) to your account or [register](https://conholdate.app/signin) if you do not own one yet. It's FREE!
 1. Go to your [dashboard](https://dashboard.conholdate.app).
 1. Click on `Upload` button and upload a document.
 1. Wait until uploading and processing is complete, then click on document name to open to open it with document viewer app.
@@ -43,7 +43,7 @@ Zoom in and out all your documents without quality loss thanks to our document v
 
 ### Document thumbnails
 Our online document viewer can display documents thumbnails, to do so, just follow those steps:
-1. [Login](https://www.conholdate.app/signin) to your account or [register](https://www.conholdate.app/signin) if you do not own one yet. It's FREE!
+1. [Login](https://conholdate.app/signin) to your account or [register](https://conholdate.app/signin) if you do not own one yet. It's FREE!
 1. Go to your [dashboard](https://dashboard.conholdate.app).
 1. Click on `Upload` button and upload a document.
 1. Wait until uploading and processing is complete, then click on document name to open to open it with document viewer app.
@@ -51,7 +51,7 @@ Our online document viewer can display documents thumbnails, to do so, just foll
 
 ### Open password protected documents
 If document is password protected, you will be promted to enter a password.
-1. [Login](https://www.conholdate.app/signin) to your account or [register](https://www.conholdate.app/signin) if you do not own one yet. It's FREE!
+1. [Login](https://conholdate.app/signin) to your account or [register](https://conholdate.app/signin) if you do not own one yet. It's FREE!
 1. Go to your [dashboard](https://dashboard.conholdate.app).
 1. Click on `Upload` button and upload a document.
 1. Wait until uploading and processing is complete, then click on document name to open to open it with document viewer app.

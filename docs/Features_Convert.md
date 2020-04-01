@@ -20,7 +20,7 @@ For example [Convert PDF to DOC](https://conholdate.app/features/convert/pdf-to-
 ### Convert documents online as registered user
 This option will suit the best for those who would like to take advantage of all premium features for free.
 > Advanced document conversion options are available **only** to registered users.
-1. [Login](https://www.conholdate.app/signin) to your account or [register](https://www.conholdate.app/signin) if you do not own one yet. It's FREE!
+1. [Login](https://conholdate.app/signin) to your account or [register](https://conholdate.app/signin) if you do not own one yet. It's FREE!
 1. Go to your [dashboard](https://dashboard.conholdate.app).
 1. Click on `Upload` button and upload a document.
 1. Wait until uploading and processing is complete, then click on <i class="fas fa-ellipsis-v"></i> icon and select `Convert`.
