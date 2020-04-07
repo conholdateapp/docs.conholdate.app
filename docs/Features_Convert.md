@@ -1,5 +1,5 @@
 ---
-id: convert
+id: convert_documents
 title: Convert Documents
 sidebar_label: Convert Documents
 ---

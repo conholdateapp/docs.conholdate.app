@@ -1,5 +1,5 @@
 ---
-id: manage
+id: manage_documents
 title: Manage Documents
 sidebar_label: Manage Documents
 ---
