@@ -1,5 +1,5 @@
 ---
-id: embed
+id: embed_documents
 title: Embed Documents
 sidebar_label: Embed Documents
 ---

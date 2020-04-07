@@ -1,5 +1,5 @@
 ---
-id: view
+id: view_documents
 title: View Documents
 sidebar_label: View Documents
 ---

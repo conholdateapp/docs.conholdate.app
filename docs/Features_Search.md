@@ -1,5 +1,5 @@
 ---
-id: search
+id: search_documents
 title: Search Documents
 sidebar_label: Search Documents
 ---

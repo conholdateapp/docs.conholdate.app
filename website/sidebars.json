@@ -1,6 +1,6 @@
 {
   "docs": {
     "Overview": ["welcome"],
-    "Features": ["view", "sign", "convert", "search", "share", "publish", "manage", "embed"]
+    "Features": ["view_documents", "sign_documents", "convert_documents", "search_documents", "share_documents", "publish_documents", "manage_documents", "embed_documents"]
   }
 }

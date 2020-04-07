@@ -1,5 +1,5 @@
 ---
-id: sign
+id: sign_documents
 title: Sign Documents
 sidebar_label: Sign Documents
 ---
