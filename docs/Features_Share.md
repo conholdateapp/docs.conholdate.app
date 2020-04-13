@@ -1,5 +1,5 @@
 ---
-id: share_documents
+id: share-documents
 title: Share Documents
 sidebar_label: Share Documents
 ---
