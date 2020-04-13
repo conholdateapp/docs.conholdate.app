@@ -1,5 +1,5 @@
 ---
-id: publish_documents
+id: publish-documents
 title: Publish Documents
 sidebar_label: Publish Documents
 ---
