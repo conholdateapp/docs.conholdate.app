@@ -4,9 +4,9 @@ title: Manage Documents
 sidebar_label: Manage Documents
 ---
 
-## How to manage your documents online
-Access you documents from anywhere and from any device!
+Access you documents from anywhere and from any device.
 
+## How to manage your documents online
 Besides viewing, signing and converting document online, with our unlimited cloud storage you can store as many documents as you want.
 Document sharing and managing is easy and intuitive.
 

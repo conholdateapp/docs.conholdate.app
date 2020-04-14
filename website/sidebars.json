@@ -1,6 +1,17 @@
 {
   "docs": {
     "Overview": ["welcome"],
-    "Features": ["view-documents", "sign-documents", "convert-documents", "search-documents", "share-documents", "publish-documents", "manage-documents", "embed-documents"]
+    "How to": 
+    [
+      "how-to/annotate-documents-online-free", 
+      "how-to/convert-documents-online-free", 
+      "how-to/embed-documents-on-your-website", 
+      "how-to/manage-documents", 
+      "how-to/publish-documents-online-free", 
+      "how-to/full-text-search-documents-online-free", 
+      "how-to/share-documents-online-free", 
+      "how-to/sign-documents-online-free", 
+      "how-to/view-documents-online-free"
+    ]
   }
 }

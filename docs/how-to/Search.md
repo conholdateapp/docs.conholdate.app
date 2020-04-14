@@ -1,10 +1,11 @@
 ---
-id: search-documents
+id: full-text-search-documents-online-free
 title: Search Documents
 sidebar_label: Search Documents
 ---
 
 ## How to full-text search documents online
+Search for documents or document's content using our advanced document full-text search engine.
 
 ### Public full-text search
 All public [Documents](https://products.conholdate.app/documents) are index by our search engine and can be full-text searched.

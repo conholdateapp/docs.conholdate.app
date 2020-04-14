@@ -1,11 +1,13 @@
 ---
-id: publish-documents
+id: publish-documents-online-free
 title: Publish Documents
 sidebar_label: Publish Documents
 ---
 
+Online document library.
+
 ## How to publish your documents online
-What to share your work, article or usefull documentation? You can use our free online [document library](https://products.conholdate.app/documents) service.
+Want to share your work, article or usefull documentation? You can use our free online [document library](https://products.conholdate.app/documents) service.
 1. [Login](https://conholdate.app/signin) to your account or [register](https://conholdate.app/signin) if you do not own one yet. It's FREE!
 1. Go to your [dashboard](https://dashboard.conholdate.app).
 1. Click on `Upload` button and upload a document.

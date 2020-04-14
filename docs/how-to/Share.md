@@ -1,8 +1,10 @@
 ---
-id: share-documents
+id: share-documents-online-free
 title: Share Documents
 sidebar_label: Share Documents
 ---
+
+Free and unlimited document cloud storage.
 
 ## How to share your documents
 At [conholdate.app](https://conholdate.app) we care about your privacy and understand that some documents might contain sensetive information, that is why we offer differet set of sharing options for you.
