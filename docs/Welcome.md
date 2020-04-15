@@ -19,5 +19,5 @@ Check out our [Feature](https://conholdate.app/features) section to see all avai
 
 ## Documents
 Documents is our [public documents library](https://products.conholdate.app/documents) where people all over the wolrd share their articles, books and all kind of usefull information.
-You can share your articles as well, just login into your dashboard and click on publish icon next to your document.
-Do not forget to check out our [public documents collection](https://products.conholdate.app/documents).
+You can share your articles as well, just login into your dashboard and click on <i class="fas fa-book"></i> icon next to your document.
+For more information see [How to publish documents](how-to/Publish.md) article.
