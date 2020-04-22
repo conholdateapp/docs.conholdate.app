@@ -4,7 +4,7 @@ title: Welcome
 sidebar_label: Welcome
 ---
 
-[Conholdate.app](https://conholdate.app) is a **FREE** service that offers proffessional tools for document managemnt and document manipulation.
+[Conholdate.app](https://conholdate.app) is a **FREE** service that offers proffessional tools for document management and document manipulation.
 It was build from ground up using latest high-end technologies and API's from leading software companies such as [Aspose](https://www.aspose.com) and [GroupDocs](https://www.groupdocs.com).
 
 Our service provides fast and reliable built-in document viewer, document conversion and document electronic signature engines. This means that you can convert, sign or view almost any document format without installing any additional software for FREE.
