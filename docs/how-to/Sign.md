@@ -7,7 +7,8 @@ sidebar_label: Sign Documents
 eSign Pdf, digital signature, electronic signature and much more.
 
 ## How to sign documents online
-All documents can be signed online with our electronic signature by document owner or by sharing documents for e-signatures with registered users and guest users. Guests are required to enter their name in order to sign a document.
+All documents can be signed online with our electronic signature by document owner or by sharing documents for e-signatures with registered users and guest users.  
+> Guests are required to enter their name in order to sign a document.
 
 ### Sign documents as document owner
 In order to sign documents online using our free built-in electronic signature, follow those steps:
@@ -19,7 +20,7 @@ In order to sign documents online using our free built-in electronic signature, 
 1. When you are done with placing signatures, click on <i class="fas fa-save"></i> icon to save your signatures permanently.
 
 ### Share and send documents for e-signatures
-When you need someone to e-sign your document, you can share documents for e-signatures by creating shared link.
+When you need someone to e-sign your document, you can share documents for e-signatures by creating sharing link.
 > For signing documents by shared link no registration is required.
 1. [Login](https://conholdate.app/signin) to your account or [register](https://conholdate.app/signin) if you do not own one yet. It's FREE!
 1. Go to your [dashboard](https://dashboard.conholdate.app).
@@ -29,7 +30,7 @@ When you need someone to e-sign your document, you can share documents for e-sig
 1. When you are done with placing signatures, click on <i class="fas fa-save"></i> icon to save your signatures permanently.
 
 ## Signature information
-You can check if document has already been signed, by who, when and what type of signature were used.
+You can check if document has already been signed, by whom, when and what type of signature were used.
 In your [dashboard](https://dashboard.conholdate.app) next to all signed documents you will find <i class="fas fa-fingerprint"></i> icon. By clicking on it signature information dialog will pop up.
 Signature information dialog contains following information:
 1. Signatory name (who signed document).
@@ -39,11 +40,11 @@ Signature information dialog contains following information:
 For example:
 ```text
 You have signed this document with Digital Signature on 20-03-2020
-Name Surename have signed this document with Barcode Signature on 21-03-2020
+{User/Name} have signed this document with Barcode Signature on 21-03-2020
 ```
 
 ## Signature management
-When you create new signatures upon signing a document with our electronic signature app, all signatures will be stored automatically in your account and can be reused for all further document signing.
+When you create new signatures on signing a document with our electronic signature app, all signatures will be stored automatically in your account and can be reused for all further document signing.
 To manage your signatures, simply open any document with electronic signature app and go to `Signatures` tab.
 
 > All signatures are private and can be accessed **only** by it's owner.

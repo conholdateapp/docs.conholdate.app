@@ -7,7 +7,8 @@ sidebar_label: Annotate Documents
 Annotate and collaborate on your documents online for free.
 
 ## How to annotate documents online
-All documents can be annotated online with our online annotation application by document owner or by sharing documents with annotation permissions for registered users and guest users. Guests are required to enter their name in order to annotate or comment a document.
+All documents can be annotated online with our online annotation application by document owner or by sharing documents with annotation permissions for registered users and guest users.  
+> Guests are required to enter their name in order to annotate or comment a document.
 
 ### Annotate documents as document owner
 In order to annotate documents online with our free built-in document annotator, follow those steps:
@@ -19,7 +20,7 @@ In order to annotate documents online with our free built-in document annotator,
 1. When you are done annotating, click on <i class="fas fa-save"></i> icon to save your annotations permanently.
 
 ### Annotate and send documents
-When you need someone to annotate your document, you can share documents with annotation permissions by creating a proper shared link.
+When you need someone to annotate your document, you can share documents with annotation permissions by creating a proper sharing link.
 > For signing documents by shared link no registration is required.
 1. [Login](https://conholdate.app/signin) to your account or [register](https://conholdate.app/signin) if you do not own one yet. It's FREE!
 1. Go to your [dashboard](https://dashboard.conholdate.app).
@@ -29,8 +30,8 @@ When you need someone to annotate your document, you can share documents with an
 1. When you are done annotating, click on <i class="fas fa-save"></i> icon to save your annotations permanently.
 
 ## Annotation information
-You can check if document has already been annotated, by who, when and what kind of annotations were used.
-In your [dashboard](https://dashboard.conholdate.app) next to all annotated documents you will find <i class="fas fa-fingerprint"></i> icon. By clicking on it annotation information dialog will pop up.
+You can check if document has already been annotated, by whom, when and what kind of annotations were used.
+In your [dashboard](https://dashboard.conholdate.app) next to all annotated documents you will find <i class="fas fa-comments"></i> icon. By clicking on it annotation information dialog will pop up.
 Annotation information dialog contains following information:
 1. Annotator name (who signed document).
 1. Annotation type.
@@ -39,7 +40,7 @@ Annotation information dialog contains following information:
 For example:
 ```text
 You have annotated this document with arrow annotation on 20-03-2020
-Name Surename have annotated this document with distance annotation on 30-03-2020
+{User/Name} have annotated this document with distance annotation on 30-03-2020
 ```
 
 ## Supported annotations
