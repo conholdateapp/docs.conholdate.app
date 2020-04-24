@@ -4,7 +4,7 @@ title: View Documents
 sidebar_label: View Documents
 ---
 
-View DOCX, XLSX, PPTX and over 100+ document formats online for free without installing any additional software with our hight quality advanced document viewer engine.
+View DOCX, XLSX, PPTX and over 100+ document formats online for free without installing any additional software with our height quality advanced document viewer engine.
 
 ## How to view documents online
 In order to view documents using our free online built-in document viewer, follow those steps:
@@ -14,7 +14,7 @@ In order to view documents using our free online built-in document viewer, follo
 1. Wait until uploading and processing is complete, then click on document name to view document.
 
 ## Document viewer features
-Besides viewing documents online, our document viewer offers other usefull features.
+Besides viewing documents online, our document viewer offers other useful features.
 
 ### Print documents
 Need to view and print an MS Office document but don't have required software installed?
@@ -50,12 +50,12 @@ Our online document viewer can display documents thumbnails, to do so, just foll
 1. Click on <i class="fas fa-th-large"></i> icon from Document Viewer's navigation top bar to toggle thumbnails.
 
 ### Open password protected documents
-If document is password protected, you will be promted to enter a password.
+If document is password protected, you will be prompted to enter a password.
 1. [Login](https://conholdate.app/signin) to your account or [register](https://conholdate.app/signin) if you do not own one yet. It's FREE!
 1. Go to your [dashboard](https://dashboard.conholdate.app).
 1. Click on `Upload` button and upload a document.
 1. Wait until uploading and processing is complete, then click on document name to open it with document viewer app.
-1. Type in document's passowrd in password dialog that will pop up on document opening.
+1. Type in document's password in password dialog that will pop up on document opening.
 
 ## Responsive design
 View your documents on any mobile or desktop devices from anywhere! [Conholdate.app](https://conholdte.app) provides a responsive layout.

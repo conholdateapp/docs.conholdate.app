@@ -4,11 +4,11 @@ title: Convert Documents
 sidebar_label: Convert Documents
 ---
 
-High quality free document online convertor.
+High quality free document online converter.
 
 ## How to convert documents online
-Convert PDF to DOCX, PNG to DOC, DOCX to PDF and more within few click using our FREE online document convertor!
-We offer fast, reliable and excelet quality document conversion.
+Convert PDF to DOCX, PNG to DOC, DOCX to PDF and more within few clicks using our FREE online document converter!
+We offer fast, reliable and excellent quality document conversion.
 
 ### Convert documents online without registration
 1. Go to [Online Document Conversion](https://conholdate.app/features/document-converter-online) page.
@@ -45,8 +45,8 @@ Available DPIs: 75, 100, 150, 200, 300 and 600.
 Our online document conversion supports over 7000 document and file formats pairs.
 See [Online Document Conversion](https://conholdate.app/features/document-converter-online) page for more information and a full list of all supported formats.
 
-## Comming soon
-Following is a list of comming soon features:
+## Coming soon
+Following is a list of coming soon features:
 
 ### Bulk conversions
 Ability to convert multiple documents at once.

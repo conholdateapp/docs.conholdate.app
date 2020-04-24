@@ -35,7 +35,7 @@ In your [dashboard](https://dashboard.conholdate.app) next to all signed documen
 Signature information dialog contains following information:
 1. Signatory name (who signed document).
 1. Signature type.
-1. Signatue date.
+1. Signature date.
 
 For example:
 ```text
@@ -62,8 +62,8 @@ To manage your signatures, simply open any document with electronic signature ap
 Our online electronic signature supports over 50 document and file formats.
 See [Online Electronic Signature](https://conholdate.app/features/sign-documents-online) page for more information and a full list of all supported formats.
 
-## Comming soon
-Following is a list of comming soon features:
+## Coming soon
+Following is a list of coming soon features:
 
 ### Dedicated signature manager
 A dedicated signatures manager is a place where you can manage all your saved signatures by viewing, adding or removing.
