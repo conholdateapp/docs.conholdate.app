@@ -69,7 +69,7 @@ One-time link speaks for itself, one-time shared link can be viewed/opened **onl
 When one-time link document is opened for the first time, one-time link becomes expired and unavailable for further access. Link status also will be updated in document's sharing dialog by fading into light-gray color.
 
 ### Sharing options and permissions
-With sharing permission you can allow ot disallow different actions against your documents.
+With sharing permissions you can allow or disallow different actions against your documents.
 
 #### Allow/Disallow downloading shared document
 You can enable and disable download button when sharing documents.  

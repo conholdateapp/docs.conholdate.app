@@ -16,7 +16,7 @@ Need to share a document with your visitors and/or customers? You can embed your
 1. Copy/past code to your blog/website.
 
 ### Embed options and permissions
-With sharing permission you can allow ot disallow different actions against your documents.
+With sharing permissions you can allow or disallow different actions against your documents.
 
 #### Allow/Disallow downloading document
 You can enable and disable download button when embeding documents.  
