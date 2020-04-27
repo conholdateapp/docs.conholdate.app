@@ -60,7 +60,7 @@ To manage your signatures, simply open any document with electronic signature ap
 
 ## Supported formats
 Our online electronic signature supports over 50 document and file formats.
-See [Online Electronic Signature](https://conholdate.app/features/sign-documents-online) page for more information and a full list of all supported formats.
+See [Online Electronic Signature](https://features.conholdate.app/signature) page for more information and a full list of all supported formats.
 
 ## Coming soon
 Following is a list of coming soon features:

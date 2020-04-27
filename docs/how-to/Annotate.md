@@ -59,4 +59,4 @@ You have annotated this document with arrow annotation on 20-03-2020
 
 ## Supported formats
 Our free online document annotator supports over 50 document and file formats.
-See [Online Document Annotation](https://conholdate.app/features/annotate-documents-online) page for more information and a full list of all supported formats.
+See [Online Document Annotation](https://features.conholdate.app/annotation) page for more information and a full list of all supported formats.

@@ -65,4 +65,4 @@ All major browsers such as Safari, Chrome, Firefox, Opera and Edge are supported
 
 ## Supported formats
 Our online document viewer supports over 100 document and file formats.
-See [Online Document Viewer](https://conholdate.app/features/document-viewer-online) page for more information and a full list of all supported formats.
+See [Online Document Viewer](https://features.conholdate.app/viewer) page for more information and a full list of all supported formats.

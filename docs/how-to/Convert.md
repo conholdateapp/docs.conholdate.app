@@ -11,10 +11,10 @@ Convert PDF to DOCX, PNG to DOC, DOCX to PDF and more within few clicks using ou
 We offer fast, reliable and excellent quality document conversion.
 
 ### Convert documents online without registration
-1. Go to [Online Document Conversion](https://conholdate.app/features/document-converter-online) page.
+1. Go to [Online Document Conversion](https://features.conholdate.app/conversion) page.
 1. Use our user-friendly wizard or scroll page down to bottom.
 1. Select desired conversion pair.
-For example [Convert PDF to DOC](https://conholdate.app/features/convert/pdf-to-doc), [Convert JPG to DOCX](https://conholdate.app/features/convert/jpg-to-docx), [Convert PDF to PPT](https://conholdate.app/features/convert/pdf-to-ppt), etc.
+For example [Convert PDF to DOC](https://features.conholdate.app/conversion/pdf-to-doc), [Convert JPG to DOCX](https://features.conholdate.app/conversion/jpg-to-docx), [Convert PDF to PPT](https://features.conholdate.app/conversion/pdf-to-ppt), etc.
 1. Click on `Upload` icon and upload document.
 1. Click on `Convert` button.
 1. Click on `Download` button to download converted document.
@@ -43,7 +43,7 @@ Available DPIs: 75, 100, 150, 200, 300 and 600.
 
 ## Supported formats
 Our online document conversion supports over 7000 document and file formats pairs.
-See [Online Document Conversion](https://conholdate.app/features/document-converter-online) page for more information and a full list of all supported formats.
+See [Online Document Conversion](https://features.conholdate.app/conversion) page for more information and a full list of all supported formats.
 
 ## Coming soon
 Following is a list of coming soon features:
