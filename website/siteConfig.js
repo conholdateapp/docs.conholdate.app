@@ -41,7 +41,7 @@ const siteConfig = {
   headerLinks: [
     {doc: 'welcome', label: 'Docs'},
   ],
-  editUrl: "https://github.com/conholdate-app/docs/tree/master/docs/",
+  editUrl: "https://github.com/conholdateapp/docs/tree/master/docs/",
   // If you have users set above, you add it here:
   users,
 
