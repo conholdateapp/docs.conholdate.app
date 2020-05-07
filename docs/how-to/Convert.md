@@ -30,6 +30,18 @@ This option will suit the best for those who would like to take advantage of all
 1. Click on `Convert` button.
 1. After conversion is complete, click on `Download` button.
 
+### Bulk documents conversion
+Convert multiple document at once with just few clicks.
+> Bulk document conversion is available **only** to registered users.
+1. [Login](https://conholdate.app/signin) to your account or [register](https://conholdate.app/signin) if you do not own one yet. It's FREE!
+1. Go to your [dashboard](https://dashboard.conholdate.app).
+1. Click on `Upload` button and upload few documents.
+1. Wait until uploading and processing is complete, then click on <i class="far fa-square"></i> next to documents you wish to convert.
+1. Click on `Convert` button at the top right corner.
+1. Select required output format from dropdown menu.
+1. Click on `Convert` button.
+1. After conversion is complete, click on `Download` button.
+
 #### Set DPI for image formats
 You can set different DPI when converting your documents into images or PDFs.  
 Available DPIs: 75, 100, 150, 200, 300 and 600.
@@ -44,9 +56,3 @@ Available DPIs: 75, 100, 150, 200, 300 and 600.
 ## Supported formats
 Our online document conversion supports over 7000 document and file formats pairs.
 See [Online Document Conversion](https://features.conholdate.app/conversion) page for more information and a full list of all supported formats.
-
-## Coming soon
-Following is a list of coming soon features:
-
-### Bulk conversions
-Ability to convert multiple documents at once.
