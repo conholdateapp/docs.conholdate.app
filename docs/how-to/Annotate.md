@@ -21,7 +21,7 @@ In order to annotate documents online with our free built-in document annotator,
 
 ### Annotate and send documents
 When you need someone to annotate your document, you can share documents with annotation permissions by creating a proper sharing link.
-> For signing documents by shared link no registration is required.
+> For annotating documents by shared link no registration is required.
 1. [Login](https://conholdate.app/signin) to your account or [register](https://conholdate.app/signin) if you do not own one yet. It's FREE!
 1. Go to your [dashboard](https://dashboard.conholdate.app).
 1. Click on `Upload` button and upload a document.
