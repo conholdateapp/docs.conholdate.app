@@ -4,24 +4,24 @@ title: Convert Documents
 sidebar_label: Convert Documents
 ---
 
-High quality free document online converter.
-
-## How to convert documents online
+High quality free document online converter.  
 Convert PDF to DOCX, PNG to DOC, DOCX to PDF and more within few clicks using our FREE online document converter!
 We offer fast, reliable and excellent quality document conversion.
 
+## How to convert documents online
+To convert documents from one format to another registration is **not required**.  
+Online document conversion is 100% **FREE** for both guest and registered users. However, by registering an account you can benifit from andvanced options and all premium features for free that are available **only** to registered users.
+
 ### Convert documents online without registration
 1. Go to [Online Document Conversion](https://features.conholdate.app/conversion) page.
-1. Use our user-friendly wizard or scroll page down to bottom.
-1. Select desired conversion pair.
+1. Use our user-friendly wizard or scroll page down to the bottom to see all available conversion pairs.
+1. Select desired conversion pair from dropdown.  
 For example [Convert PDF to DOC](https://features.conholdate.app/conversion/pdf-to-doc), [Convert JPG to DOCX](https://features.conholdate.app/conversion/jpg-to-docx), [Convert PDF to PPT](https://features.conholdate.app/conversion/pdf-to-ppt), etc.
-1. Click on `Upload` icon and upload document.
-1. Click on `Convert` button.
-1. Click on `Download` button to download converted document.
+1. Click on `Upload` icon and upload a document.
+1. After upload is complete, click on `Convert` button.
 
 ### Convert documents online as registered user
-This option will suit the best for those who would like to take advantage of all premium features for free.
-> Advanced document conversion options are available **only** to registered users.
+Registered users can convert any document(s) right from dashboard.
 1. [Login](https://conholdate.app/signin) to your account or [register](https://conholdate.app/signin) if you do not own one yet. It's FREE!
 1. Go to your [dashboard](https://dashboard.conholdate.app).
 1. Click on `Upload` button and upload a document.
@@ -31,8 +31,9 @@ This option will suit the best for those who would like to take advantage of all
 1. After conversion is complete, click on `Download` button.
 
 ### Bulk documents conversion
-Convert multiple document at once with just few clicks.
-> Bulk document conversion is available **only** to registered users.
+> **Only** available to registered users.
+
+Convert multiple documents at once with just few clicks.
 1. [Login](https://conholdate.app/signin) to your account or [register](https://conholdate.app/signin) if you do not own one yet. It's FREE!
 1. Go to your [dashboard](https://dashboard.conholdate.app).
 1. Click on `Upload` button and upload few documents.
@@ -43,6 +44,8 @@ Convert multiple document at once with just few clicks.
 1. After conversion is complete, click on `Download` button.
 
 #### Set DPI for image formats
+> **Only** available to registered users.
+
 You can set different DPI when converting your documents into images or PDFs.  
 Available DPIs: 75, 100, 150, 200, 300 and 600.
 1. [Login](https://conholdate.app/signin) to your account or [register](https://conholdate.app/signin) if you do not own one yet. It's FREE!
@@ -52,6 +55,12 @@ Available DPIs: 75, 100, 150, 200, 300 and 600.
 1. Select image or PDF output format from dropdown menu.
 1. Select desired DPI from dropdown menu and click on `Convert` button.
 1. After conversion is complete, click on `Download` button.
+
+## Responsive design
+View your documents on any mobile or desktop devices from anywhere! [Conholdate.app](https://conholdte.app) provides a responsive layout.
+
+## Cross-browser support
+All major browsers such as Safari, Chrome, Firefox, Opera and Edge are supported out of the box.
 
 ## Supported formats
 Our online document conversion supports over 7000 document and file formats pairs.
