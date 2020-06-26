@@ -20,7 +20,7 @@ For example [Edit DOCX](https://features.conholdate.app/editor/docx), [Edit XLSX
 1. After upload is complete, click on `Edit` button.
 
 ### Edit documents online as registered user
-Registered users can annotate any document(s) right from dashboard.
+Registered users can edit any document(s) right from dashboard.
 1. [Login](https://conholdate.app/signin) to your account or [register](https://conholdate.app/signin) if you do not own one yet. It's FREE!
 1. Go to your [dashboard](https://dashboard.conholdate.app).
 1. Click on `Upload` button and upload a document.
