@@ -8,7 +8,7 @@ View DOCX, XLSX, PPTX and over 100+ document formats online for free without ins
 
 ## How to view documents online
 To view documents registration is **not required**.  
-Online document signature is 100% **FREE** for both guest and registered users. However, by registering an account you can benifit from andvanced options and all premium features for free that are available **only** to registered users.
+Online document viewer is 100% **FREE** for both guest and registered users. However, by registering an account you can benifit from andvanced options and all premium features for free that are available **only** to registered users.
 
 ### View documents online without registration
 1. Go to [Online Document Viewer](https://features.conholdate.app/viewer) page.
