@@ -11,7 +11,7 @@ To merge documents registration is **not required**.
 Online document merger is 100% **FREE** for both guest and registered users. However, by registering an account you can benifit from andvanced options and all premium features for free that are available **only** to registered users.
 
 ### Merge documents online without registration
-1. Go to [Online Document Mergeer](https://features.conholdate.app/merger) page.
+1. Go to [Online Document Merger](https://features.conholdate.app/merger) page.
 1. Use our user-friendly wizard or scroll page down to the bottom to see all [available formats](https://features.conholdate.app/merger#supported-formats).
 1. Select desired format from dropdown.  
 For example [Merge DOCX](https://features.conholdate.app/merger/docx), [Merge XLSX](https://features.conholdate.app/merger/xlsx), [Merge PPTX](https://features.conholdate.app/merger/pptx), etc.
@@ -33,7 +33,7 @@ Besides mergeing documents online, our document merger offers other useful featu
 
 ### Formats support
 We support all major formats for merging (pdf, doc, xls, docx, ppt, xlsx, pptx etc)
-See [Online Document Mergeer](https://features.conholdate.app/merger#supported-formats) page for more information and a full list of all supported formats.
+See [Online Document Merger](https://features.conholdate.app/merger#supported-formats) page for more information and a full list of all supported formats.
 
 ### Multiple files
 Merge up to 6 documents at once.
