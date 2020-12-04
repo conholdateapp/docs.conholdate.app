@@ -15,15 +15,16 @@ All assembly templates can be filled online with our online assembly application
 1. Create template xml file Please make sure that its name is **equale** to the template name. For example if your template name is **my template.docx** than your xml file name shoud be **my template.xml**
 
 ## How to configure template xml
-1. Create root element named **items**
-1. Inside **items** create **item** element for each uniq field added to the template document. Each **item** element must containe such required properties:
+1. Create root element named **form**
+1. Inside **form** create **section** element. This element describes assembly form step i.e number of the **section** elements is equale to the number of steps in the generated assembly form.
+1. Inside **section** create at least one **question** element. You can add quetion elements as many as you need. Number of the question elements is equale to the number of questions at specific step in the generated assembly form.
+1. Each **question** element must containe such required properties:
 	- type
 	- id
 	- title
 	- description
 1. Zip both files (template document and its xml configuration file)
 > Please pay attention that the **id** value should be the same as **keyword** used in the template document. For example if you have such filed `<<[userName]>>` the **id** must be **userName**. Also you can download template example [here](/downloadTemplate)
-
 
 ### Supported field types
 - input
