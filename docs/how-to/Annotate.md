@@ -29,16 +29,6 @@ Registered users can annotate any document(s) right from dashboard.
 1. Select required annotation and place it over the document.
 1. When you are done annotating, click on <i class="fas fa-save"></i> icon to save your annotations permanently.
 
-### Annotate and collaborate online
-> **Only** available to registered users.
-
-Share documents with others to collaborate by annotating documents and adding comments.
-1. [Login](https://conholdate.app/signin) to your account or [register](https://conholdate.app/signin) if you do not own one yet. It's FREE!
-1. Go to your [dashboard](https://dashboard.conholdate.app).
-1. Click on `Upload` button and upload a document.
-1. Wait until uploading and processing is complete, then click on <i class="fas fa-link"></i> icon.
-> No registration is required for document annotation from shared link.
-
 ## Annotation information
 > **Only** available to registered users.
 

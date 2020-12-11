@@ -27,17 +27,6 @@ Registered users can edit metadata of any document(s) right from dashboard.
 1. Wait until uploading and processing is complete, then click on <i class="fas fa-ellipsis-v"></i> icon and select `Metadata`.
 1. When you are done with your edits, click on <i class="fas fa-save"></i> icon to save updated metadata permanently.
 
-### Share documents for metadata editing
-> **Only** available to registered users.
-
-Share your documents with others for metadata editing.
-1. [Login](https://conholdate.app/signin) to your account or [register](https://conholdate.app/signin) if you do not own one yet. It's FREE!
-1. Go to your [dashboard](https://dashboard.conholdate.app).
-1. Click on `Upload` button and upload a document.
-1. Wait until uploading and processing is complete, then click on <i class="fas fa-link"></i> icon.
-1. From the actions drop down menu select 'Metadata' and click 'Create link'. Also you can set 'one-time-link' checkbox - in this case generated link will be deactivated after the first time opening.
-> No registration is required for document metadata editing from shared link.
-
 ## Supported metadata editing features
 1. View document metadata
 1. Add new metadata property

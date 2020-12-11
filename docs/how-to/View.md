@@ -25,18 +25,6 @@ In order to view documents using our free online built-in document viewer, follo
 1. Click on `Upload` button and upload a document.
 1. Wait until uploading and processing is complete, then click on document name to view document.
 
-### Share documents for viewing
-> **Only** available to registered users.
-
-Share your documents privatly or publicly for viewing with your friends and colleagues. No additional software installation is required!
-1. [Login](https://conholdate.app/signin) to your account or [register](https://conholdate.app/signin) if you do not own one yet. It's FREE!
-1. Go to your [dashboard](https://dashboard.conholdate.app).
-1. Click on `Upload` button and upload a document.
-1. Wait until uploading and processing is complete, then click on <i class="fas fa-link"></i> icon.
-1. Select `Sign` from dropdown menu and click on `Create link` button.
-1. When you are done with placing signatures, click on <i class="fas fa-save"></i> icon to save your signatures permanently.
-> No registration is required for sign documents from shared link.
-
 ## Document viewer features
 Besides viewing documents online, our document viewer offers other useful features.
 

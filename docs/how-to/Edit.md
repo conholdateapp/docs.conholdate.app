@@ -27,16 +27,6 @@ Registered users can edit any document(s) right from dashboard.
 1. Wait until uploading and processing is complete, then click on <i class="fas fa-ellipsis-v"></i> icon and select `Edit`.
 1. When you are done with your edits, click on <i class="fas fa-save"></i> icon to save your edits permanently. Also you can click on 'Save File As' icon and set a new name and file type in which your edits will be saved.
 
-### Share documents for editing
-> **Only** available to registered users.
-
-Share your documents with others for editing.
-1. [Login](https://conholdate.app/signin) to your account or [register](https://conholdate.app/signin) if you do not own one yet. It's FREE!
-1. Go to your [dashboard](https://dashboard.conholdate.app).
-1. Click on `Upload` button and upload a document.
-1. Wait until uploading and processing is complete, then click on <i class="fas fa-link"></i> icon.
-> No registration is required for document editing from shared link.
-
 ## Supported text editing features
 1. Undo
 1. Redo

@@ -29,18 +29,6 @@ Registered users can annotate any document(s) right from dashboard.
 1. Select required signature type and place it over the document.
 1. When you are done with placing signatures, click on <i class="fas fa-save"></i> icon to save your signatures permanently.
 
-### Share and send documents for e-signatures
-> **Only** available to registered users.
-
-When you need someone to e-sign your document, you can share documents for e-signatures by creating a shared link.
-1. [Login](https://conholdate.app/signin) to your account or [register](https://conholdate.app/signin) if you do not own one yet. It's FREE!
-1. Go to your [dashboard](https://dashboard.conholdate.app).
-1. Click on `Upload` button and upload a document.
-1. Wait until uploading and processing is complete, then click on <i class="fas fa-link"></i> icon.
-1. Select `Sign` from dropdown menu and click on `Create link` button.
-1. When you are done with placing signatures, click on <i class="fas fa-save"></i> icon to save your signatures permanently.
-> No registration is required for sign documents from shared link.
-
 ## Signature information
 > **Only** available to registered users.
 
