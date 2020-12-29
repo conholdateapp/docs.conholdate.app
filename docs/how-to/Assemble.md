@@ -34,6 +34,7 @@ XML template structure is simple and devided by `sections` inside root element `
 	- id
 	- title
 	- description
+	- question
 	Where `id` = `tag` name from DOCX file.
 
 See following XML example:
@@ -44,12 +45,14 @@ See following XML example:
 			<type>input</type>
 			<id>myTag</id>
 			<title>My title</title>
+			<question>My question?</question>
 			<description>Input description, question, etc</description>
 		</section>
 		<section>
 			<type>textarea</type>
 			<id>myAnotherTag</id>
 			<title>Another title</title>
+			<question>My another question?</question>
 			<description>textarea description, question, etc</description>
 		</section>
 	</step>
@@ -60,6 +63,7 @@ See following XML example:
 			<title>One more title</title>
 			<description>dropdown description, question, etc</description>
 			<required>true</required>
+			<question>One more question?</question>
 			<options>
                 <option>
 					<title>{option_title}</title>
@@ -86,7 +90,7 @@ This example has 2 steps, where first step has 2 questions with text input and t
 
 ### Advanced settings
 With advanced option you can specify required or optional questions, allow/disalow downloads and sent resulted documents to provided email addresses.
-- To set any question as required just add `<required>true</required>` parameter to `<question></question>` property. Setting to **false** means that question is optional.
+- To set any question as required just add `<required>true</required>` parameter to `<section></section>` property. Setting to **false** means that question is optional.
 	By default it is set as **ture** - required.
 - Allowing/disalowing downloads and sending resulted documents can be achieved by added `<settings>` property inside root element `<form>`, in the same way as you did for `<section>`.
 	Example:
