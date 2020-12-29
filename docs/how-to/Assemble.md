@@ -27,9 +27,9 @@ DOCX template is your main template which holds static data/text along with dyna
 XML template structure is simple and devided by `sections` inside root element `form`. Each `section` represents form/wizard step.
 1. Create new XML file;
 1. Add root element `<form></form>`;
-1. Inside `<form>` add `<section></section>`;
-1. Now we can add `<question></question>`. Each `section` can have as many `questions` as you want.
-1. Each `<question>` must have:
+1. Inside `<form>` add `<step></step>`;
+1. Now we can add `<section></section>`. Each `step` can have as many `sections` as you like.
+1. Each `<section>` must have:
 	- type
 	- id
 	- title
@@ -39,44 +39,50 @@ XML template structure is simple and devided by `sections` inside root element `
 See following XML example:
 ```xml
 <form>
-	<section>
-		<question>
+	<step>
+		<section>
 			<type>input</type>
 			<id>myTag</id>
 			<title>My title</title>
 			<description>Input description, question, etc</description>
-		</question>
-		<question>
+		</section>
+		<section>
 			<type>textarea</type>
 			<id>myAnotherTag</id>
 			<title>Another title</title>
 			<description>textarea description, question, etc</description>
-		</question>
-	</section>
-	<section>
-		<question>
+		</section>
+	</step>
+	<step>
+		<section>
 			<type>dropdown</type>
 			<id>myDropdownTag</id>
 			<title>One more title</title>
 			<description>dropdown description, question, etc</description>
 			<required>true</required>
 			<options>
-                <option>Option 1</option>
-                <option>Option 2</option>            
+                <option>
+					<title>{option_title}</title>
+					<value>{option_value}</value>
+				</option>
+                <option>
+					<title>{option_title}</title>
+					<value>{option_value}</value>
+				</option>           
             </options>
-		</question>
-	</section>
+		</section>
+	</step>
 </form>
 ```
 This example has 2 steps, where first step has 2 questions with text input and text area and second step has one question with dropdown menu.
 
 ### Supported question types
-- input
-- textarea
-- dropdown
-- checkbox
-- radio button
-- date picker
+- input (text imput field)
+- textarea (text area)
+- dropdown (dropdown)
+- checkbox (checkbox)
+- radio (radio button)
+- date (date picker)
 
 ### Advanced settings
 With advanced option you can specify required or optional questions, allow/disalow downloads and sent resulted documents to provided email addresses.
