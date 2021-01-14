@@ -24,7 +24,7 @@ DOCX template is your main template which holds static data/text along with dyna
 	> TAG Example: `<<[myTag]>>`
 
 ### XML template
-XML template structure is simple and devided by `sections` inside root element `form`. Each `section` represents form/wizard step.
+XML template structure is simple and divided by `sections` inside root element `form`. Each `section` represents form/wizard step.
 1. Create new XML file;
 1. Add root element `<form></form>`;
 1. Inside `<form>` add `<step></step>`;
@@ -89,10 +89,10 @@ This example has 2 steps, where first step has 2 questions with text input and t
 - date (date picker)
 
 ### Advanced settings
-With advanced option you can specify required or optional questions, allow/disalow downloads and sent resulted documents to provided email addresses.
+With advanced option you can specify required or optional questions, allow/disallow downloads and sent resulted documents to provided email addresses.
 - To set any question as required just add `<required>true</required>` parameter to `<section></section>` property. Setting to **false** means that question is optional.
-	By default it is set as **ture** - required.
-- Allowing/disalowing downloads and sending resulted documents can be achieved by added `<settings>` property inside root element `<form>`, in the same way as you did for `<section>`.
+	By default it is set as **true** - required.
+- Allowing/disallowing downloads and sending resulted documents can be achieved by added `<settings>` property inside root element `<form>`, in the same way as you did for `<section>`.
 	Example:
 	```xml
 		<form>
@@ -113,14 +113,14 @@ With advanced option you can specify required or optional questions, allow/disal
 	```
 
 ### Assemble template
-Now that you have both DOCX and XML templates it is time to asseble your form.
-In order to asseble your final template, just zip both files into single zip.
+Now that you have both DOCX and XML templates it is time to assemble your form.
+In order to assemble your final template, just zip both files into single zip.
 	
 ### Create forms online without registration
 1. Go to [Online Document Assembly](https://features.conholdate.app/assembly) page.
 1. Click on `Upload` icon and upload a zip package.
-1. After upload is complete, click on `Assembly` button.
-1. To share your form click on <i class="far fa-copy"></i> button. Share form link will be copied to your clipboard.
+1. After upload is complete, click on the `Assembly` button.
+1. To share your form click on the <i class="far fa-copy"></i> button. Share form link will be copied to your clipboard.
 1. If download resulted document is enabled you can select one of the three available formats from dropdown and download it.
 
 ### Create forms online as registered user
@@ -128,10 +128,10 @@ Registered users can assemble template(s) right from dashboard.
 1. [Login](https://conholdate.app/signin) to your account or [register](https://conholdate.app/signin) if you do not own one yet. It's FREE!
 1. Go to your [dashboard](https://dashboard.conholdate.app).
 1. Go to `My Forms` section.
-1. Click on `Upload` button and upload a zip package.
+1. Click on the `Upload` button and upload a zip package.
 1. Wait until uploading and processing is complete, then click on <i class="fas fa-ellipsis-v"></i> icon and select `Assembly`.
 1. Complete form by going through all steps.
-1. Click on **Finish** button to generate document with parameters you inserted during wizard steps.
+1. Click on the **Finish** button to generate document with parameters you inserted during wizard steps.
 1. If download resulted document is enabled you can select one of the three available formats from dropdown and download it.
 
 ## Responsive design
@@ -141,4 +141,4 @@ View your documents on any mobile or desktop devices from anywhere! [Conholdate.
 All major browsers such as Safari, Chrome, Firefox, Opera and Edge are supported out of the box.
 
 ## Supported formats
-Currently our free online document assembly supports only **DOC** and **DOCX** templates. But we work on new formats adding.
+Currently our free online document assembly supports only **DOC** and **DOCX** templates. But we are working on adding new formats.
