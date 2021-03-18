@@ -117,7 +117,7 @@ Now that you have both DOCX and XML templates it is time to assemble your form.
 In order to assemble your final template, just zip both files into single zip.
 	
 ### Create forms online without registration
-1. Go to [Online Document Assembly](https://features.conholdate.app/assembly) page.
+1. Go to [Online Document Assembly](https://conholdate.app/products/assembly) page.
 1. Click on `Upload` icon and upload a zip package.
 1. After upload is complete, click on the `Assembly` button.
 1. To share your form click on the <i class="far fa-copy"></i> button. Share form link will be copied to your clipboard.
@@ -126,7 +126,7 @@ In order to assemble your final template, just zip both files into single zip.
 ### Create forms online as registered user
 Registered users can assemble template(s) right from dashboard.
 1. [Login](https://conholdate.app/signin) to your account or [register](https://conholdate.app/signin) if you do not own one yet. It's FREE!
-1. Go to your [dashboard](https://dashboard.conholdate.app).
+1. Go to your [dashboard](https://conholdate.app/dashboard).
 1. Go to `My Forms` section.
 1. Click on the `Upload` button and upload a zip package.
 1. Wait until uploading and processing is complete, then click on <i class="fas fa-ellipsis-v"></i> icon and select `Assembly`.
