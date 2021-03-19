@@ -8,9 +8,9 @@ sidebar_label: Search Documents
 Search for documents or document's content using our advanced document full-text search engine.
 
 ### Public full-text search
-All public [Documents](https://library.conholdate.app) are index by our search engine and can be full-text searched.
+All public [Documents](https://conholdate.app/library/files) are index by our search engine and can be full-text searched.
 Which means that you can search public documents by name or by keywords.
-1. Go to [Documents](https://library.conholdate.app).
+1. Go to [Documents](https://conholdate.app/library/files).
 1. Type desired keyword or document name in search field.
 1. Click on <i class="fas fa-search"></i> icon.
 
@@ -19,7 +19,7 @@ Same as in case with public documents, all private documents are indexed by our 
 So you can search your documents by name, by keyword or by phrase.
 > All private document are available only to the **owner**
 1. [Login](https://conholdate.app/signin) to your account or [register](https://conholdate.app/signin) if you do not own one yet. It's FREE!
-1. Go to your [dashboard](https://dashboard.conholdate.app).
+1. Go to your [dashboard](https://conholdate.app/dashboard).
 1. Type desired keyword or document name in search field.
 1. Click on <i class="fas fa-search"></i> icon.
 

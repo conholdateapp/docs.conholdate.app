@@ -13,11 +13,11 @@ Our modern and intuitive design will make your document management experience tr
 Sign documents within few clicks or share documents using shared links with view/sign permissions and innumerous options, it's up to you to decide, control all your activities and manage your documents like a PRO!
 Do not wait and get full advantage of enterprise features by [registering](https://www.conholdate.app/signin) an account right now!
 
-Check out our [Feature](https://features.conholdate.app) section to see all available features.
+Check out our [Feature](https://conholdate.app/products) section to see all available features.
 
 > **Note:** conholdate.app is totally **FREE**, no credit card is required!
 
 ## Library
-Our [public documents library](https://library.conholdate.app) offers FREE sharing documentation serice where people all over the wolrd share their articles, books and all kind of useful information.
+Our [public documents library](https://conholdate.app/library/files) offers FREE sharing documentation serice where people all over the wolrd share their articles, books and all kind of useful information.
 You can share your articles as well, just login into your dashboard and click on <i class="fas fa-book"></i> icon next to your document.
 For more information see [How to publish documents](how-to/Publish.md) article.
