@@ -13,17 +13,17 @@ Online document signature is 100% **FREE** for both guest and registered users. 
 > Guests are required to enter their name in order to sign a document. For registered users this is done automatically.
 
 ### Sign documents online without registration
-1. Go to [Online Document Signature](https://conholdate.app/products/signature) page.
+1. Go to [Online Document Signature](https://products.conholdate.app/signature) page.
 1. Use our user-friendly wizard or scroll page down to the bottom to see all available formats.
 1. Select desired format from dropdown.  
-For example [eSign DOCX](https://conholdate.app/products/signature/docx), [eSign XLSX](https://conholdate.app/products/signature/xlsx), [eSign PPTX](https://conholdate.app/products/signature/pptx), etc.
+For example [eSign DOCX](https://products.conholdate.app/signature/docx), [eSign XLSX](https://products.conholdate.app/signature/xlsx), [eSign PPTX](https://products.conholdate.app/signature/pptx), etc.
 1. Click on `Upload` icon and upload a document.
 1. After upload is complete, click on `Sign` button.
 
 ### Sign documents online as registered user
 Registered users can annotate any document(s) right from dashboard.
 1. [Login](https://conholdate.app/signin) to your account or [register](https://conholdate.app/signin) if you do not own one yet. It's FREE!
-1. Go to your [dashboard](https://conholdate.app/dashboard).
+1. Go to your [dashboard](https://dashboard.conholdate.app).
 1. Click on `Upload` button and upload a document.
 1. Wait until uploading and processing is complete, then click on <i class="fas fa-ellipsis-v"></i> icon and select `Sign`.
 1. Select required signature type and place it over the document.
@@ -33,7 +33,7 @@ Registered users can annotate any document(s) right from dashboard.
 > **Only** available to registered users.
 
 You can check if document has already been signed, by whom, when and what type of signature were used.
-In your [dashboard](https://conholdate.app/dashboard) next to all signed documents you will find <i class="fas fa-fingerprint"></i> icon. By clicking on it signature information dialog will pop up.
+In your [dashboard](https://dashboard.conholdate.app) next to all signed documents you will find <i class="fas fa-fingerprint"></i> icon. By clicking on it signature information dialog will pop up.
 Signature information dialog contains following information:
 1. Signatory name (who signed document).
 1. Signature type.
@@ -70,7 +70,7 @@ All major browsers such as Safari, Chrome, Firefox, Opera and Edge are supported
 
 ## Supported formats
 Our online electronic signature supports over 50 document and file formats.
-See [Online Electronic Signature](https://conholdate.app/products/signature) page for more information and a full list of all supported formats.
+See [Online Electronic Signature](https://products.conholdate.app/signature) page for more information and a full list of all supported formats.
 
 ## Coming soon
 Following is a list of coming soon features:

@@ -23,9 +23,9 @@ const users = [
 const siteConfig = {
   title: 'Docs - Free Online Document Viewer, Conversion, Signature, Editor & Annotation', // Title for your website.
   tagline: 'Free Online Document Viewer, Conversion, Signature, Editor & Annotation',
-  url: 'https://conholdate.app/docs', // Your website URL
+  url: 'https://docs.conholdate.app', // Your website URL
   docsUrl: '',
-  baseUrl: '/docs/', // Base URL for your project */
+  baseUrl: '/', // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
   //   url: 'https://facebook.github.io',
   //   baseUrl: '/test-site/',
