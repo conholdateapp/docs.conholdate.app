@@ -14,7 +14,7 @@ The result from filling up the form can be obtained as PDF, DOC and DOCX (more f
 ## How to create Forms
 In order to create your own Form it is required to create two files: **docx** and **xml** with equal names.
 For example: `my_form.docx` and `my_form.xml`
-> Download our [form](/docs/download?template=example-forms.zip) example for the further reference.
+> Download our [form](/download?template=example-forms.zip) example for the further reference.
 
 ### DOCX template
 DOCX template is your main template which holds static data/text along with dynamic data/variables.
