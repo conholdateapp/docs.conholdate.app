@@ -13,17 +13,17 @@ Online document annotation is 100% **FREE** for both guest and registered users.
 > Guests are required to enter their name in order to annotate or comment a document. For registered users this is done automatically.
 
 ### Annotate documents online without registration
-1. Go to [Online Document Annotation](https://conholdate.app/products/annotation) page.
+1. Go to [Online Document Annotation](https://products.conholdate.app/annotation) page.
 1. Use our user-friendly wizard or scroll page down to the bottom to see all available formats.
 1. Select desired format from dropdown.  
-For example [Annotate PDF](https://conholdate.app/products/annotation/pdf), [Annotate DOCX](https://conholdate.app/products/annotation/docx), [Annotate XLSX](https://conholdate.app/products/annotation/xlsx), [Annotate PPTX](https://conholdate.app/products/annotation/pptx), etc.
+For example [Annotate PDF](https://products.conholdate.app/annotation/pdf), [Annotate DOCX](https://products.conholdate.app/annotation/docx), [Annotate XLSX](https://products.conholdate.app/annotation/xlsx), [Annotate PPTX](https://products.conholdate.app/annotation/pptx), etc.
 1. Click on `Upload` icon and upload a document.
 1. After upload is complete, click on `Annotate` button.
 
 ### Annotate documents online as registered user
 Registered users can annotate any document(s) right from dashboard.
 1. [Login](https://conholdate.app/signin) to your account or [register](https://conholdate.app/signin) if you do not own one yet. It's FREE!
-1. Go to your [dashboard](https://conholdate.app/dashboard).
+1. Go to your [dashboard](https://dashboard.conholdate.app).
 1. Click on `Upload` button and upload a document.
 1. Wait until uploading and processing is complete, then click on <i class="fas fa-ellipsis-v"></i> icon and select `Annotate`.
 1. Select required annotation and place it over the document.
@@ -33,7 +33,7 @@ Registered users can annotate any document(s) right from dashboard.
 > **Only** available to registered users.
 
 You can check if document has already been annotated, by whom, when and what kind of annotations were used.
-In your [dashboard](https://conholdate.app/dashboard) next to all annotated documents you will find <i class="fas fa-comments"></i> icon. By clicking on it annotation information dialog will pop up.
+In your [dashboard](https://dashboard.conholdate.app) next to all annotated documents you will find <i class="fas fa-comments"></i> icon. By clicking on it annotation information dialog will pop up.
 Annotation information dialog contains following information:
 1. Annotator name (who signed document).
 1. Annotation type.
@@ -67,4 +67,4 @@ All major browsers such as Safari, Chrome, Firefox, Opera and Edge are supported
 
 ## Supported formats
 Our free online document annotator supports over 50 document and file formats.
-See [Online Document Annotation](https://conholdate.app/products/annotation) page for more information and a full list of all supported formats.
+See [Online Document Annotation](https://products.conholdate.app/annotation) page for more information and a full list of all supported formats.
