@@ -1,0 +1,16 @@
+{{ define "main" }}
+<div class="row">
+    <div class="col-10">
+        {{ partial "breadcrumbs" . }}
+    </div>
+    <div class="col-2 align-middle py-2">
+        {{- if .GitInfo -}}                       
+        {{- if not .Params.disableGitInfo -}}
+            {{- partial "github-info.html" . -}}                                     
+        {{- end -}}     
+        {{- end -}}     
+    </div>
+</div>   
+<h1>{{ .Title }}</h1>
+{{ .Content }}    
+{{ end }}

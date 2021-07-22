@@ -1,0 +1,26 @@
+{{ define "main" }}
+<div class="row">
+    <div class="col-10">
+        {{ partial "breadcrumbs" . }}
+    </div>
+    <div class="col-2 align-middle py-2">
+        {{- if .GitInfo -}}                       
+        {{- if not .Params.disableGitInfo -}}
+            {{- partial "github-info.html" . -}}                                     
+        {{- end -}}     
+        {{- end -}}     
+    </div>
+</div>   
+<h1>{{ .Title }}</h1>
+    {{ .Content }}    
+    {{ if not (.Params.hideChildren) }}      
+        <ul class="contents">
+        {{ $pages := .Paginator.Pages | append .Sections }}    
+        {{ range sort $pages.ByWeight }}
+            <li>
+                <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+            </li>
+        {{ end }}        
+        </ul>         
+    {{ end }}   
+{{ end }}

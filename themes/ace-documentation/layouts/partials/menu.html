@@ -1,0 +1,61 @@
+<nav class="navbar navbar-expand-md navbar-light pl-0">
+  <button class="navbar-toggler navbar-toggler-right collapsed" type="button" data-toggle="collapse" data-target="#sidenav-left-collapse" aria-controls="sidenav-left-collapse" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+   <div class="collapse navbar-collapse align-items-start flex-column" id="sidenav-left-collapse">
+      {{- if not .Site.Params.disableSearch -}}
+      {{- if not .Params.disableSearch -}}         
+          <fess:search></fess:search>
+      {{- end -}}
+      {{- end -}}
+       <ul class="navbar-nav flex-column pt-3">         
+        <!-- ----------------------- MENU FOR CURRENT SECTION ONLY ----------------------- -->                
+          {{- $url := $.RelPermalink -}}
+          {{- $slittedUrl := split $url "/" -}}           
+          {{- $menuSection := (printf "%s/%s" (index $slittedUrl 1)  (index $slittedUrl 2)) -}}
+            {{- if eq $menuSection "*" -}}
+              {{- $menuSection = "/" -}}
+            {{- end -}}                    
+            {{- with .Site.GetPage $menuSection -}}
+              {{- template "section-children" (dict "Section" . "CurrentPage" $) -}}
+            {{- end -}}  
+
+            {{- define "section-children" -}}
+              {{- $self := eq .CurrentPage .Section -}}
+              {{- $ancestor := .Section.IsAncestor .CurrentPage -}}                                
+              <ul class="list-unstyled ml-2 
+              {{- if and (ne $self true) (ne $ancestor true) }} collapse {{- end -}}" 
+              id="{{- .Section.Params.Id -}}">
+                {{ range .Section.Pages }}  
+                  {{- if .IsSection -}}
+                    <li data-nav-id="{{.RelPermalink}}" class="nav-item my-2 
+                        {{- if .IsAncestor $.CurrentPage}} parent{{end}}">                                                   
+                      {{- template "page-link" (dict "Page" . "CurrentPage" $.CurrentPage) -}}
+                      {{ template "section-children" (dict "Section" . "CurrentPage" $.CurrentPage) }}
+                    </li>
+                  {{ else if and .IsPage .Content -}}
+                    <li data-nav-id="{{.RelPermalink}}" class="nav-item my-2 
+                      {{- if eq .RelPermalink $.CurrentPage.RelPermalink}} active{{end -}}">                             
+                        {{ template "page-link" (dict "Page" . "CurrentPage" $.CurrentPage) }}
+                    </li>
+                  {{ end -}} 
+                  {{ end -}}
+              </ul>                
+            {{- end -}}
+            {{- define "page-link" -}}
+            {{- if true -}}
+              {{ if .Page.IsSection -}} 
+                <a class="collapsable-menu-icon" data-toggle="collapse" data-target="#{{ .Page.Params.Id }}" aria-expanded="false" role="button" aria-controls="{{ .Page.Params.Id }}"></a>
+              {{ end -}}              
+                <a href="{{ .Page.RelPermalink }}" class="nav-link p-0  {{- if eq .Page.RelPermalink $.CurrentPage.RelPermalink}} active{{end -}}">                                      
+                      {{- partial "title" .Page -}}
+                </a>
+              {{- else }}
+                <span>{{- partial "title" .Page -}}</span>
+              {{- end -}}
+          {{- end -}} 
+        <!-- ----------------------- END OF MENU FOR CURRENT SECTION ONLY ----------------------- -->          
+      </ul>
+  </div>
+</nav>
+
