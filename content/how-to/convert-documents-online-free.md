@@ -31,7 +31,7 @@ Registered users can convert any document(s) right from dashboard.
 1. After conversion is complete, click on `Download` button.
 
 ### Bulk documents conversion
-> **Only** available to registered users.
+{{< alert style="warning" >}}  **Only** available to registered users.{{< /alert>}}
 
 Convert multiple documents at once with just few clicks.
 1. [Login](https://conholdate.app/signin) to your account or [register](https://conholdate.app/signin) if you do not own one yet. It's FREE!
@@ -44,7 +44,7 @@ Convert multiple documents at once with just few clicks.
 1. After conversion is complete, click on `Download` button.
 
 #### Set DPI for image formats
-> **Only** available to registered users.
+{{< alert style="warning" >}}  **Only** available to registered users.{{< /alert>}}
 
 You can set different DPI when converting your documents into images or PDFs.  
 Available DPIs: 75, 100, 150, 200, 300 and 600.

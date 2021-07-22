@@ -12,7 +12,4 @@
 {{ $fontawesomeCss := resources.Get "css/fontawesome-slim-land.css" }}
 {{ $style := resources.Get "css/groupdocs-docs-land.css" }}
 {{ $styleMobile := resources.Get "css/groupdocs-docs.mobile-land.css" }}
-{{ $bundleCss := slice $openSansCss $bootstrapCss $fontawesomeCss $style $styleMobile | resources.Concat "css/bundle-total-platform.css" | toCSS | minify }}
-
-<link rel="stylesheet" type="text/css" href="{{ $bundleCss.Permalink }}" />
 

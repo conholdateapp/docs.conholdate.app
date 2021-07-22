@@ -2,6 +2,7 @@
 id: annotate-documents-online-free
 title: Annotate Documents
 sidebar_label: Annotate Documents
+hideChildren: False
 ---
 
 Annotate and collaborate on your documents online for free.  
@@ -10,7 +11,7 @@ All documents can be annotated online with our online annotation application by 
 ## How to annotate documents online
 To annotate documents registration is **not required**.  
 Online document annotation is 100% **FREE** for both guest and registered users. However, by registering an account you can benifit from andvanced options and all premium features for free that are available **only** to registered users.
-> Guests are required to enter their name in order to annotate or comment a document. For registered users this is done automatically.
+{{< alert style="warning" >}}  Guests are required to enter their name in order to annotate or comment a document. For registered users this is done automatically.{{< /alert >}}
 
 ### Annotate documents online without registration
 1. Go to [Online Document Annotation](https://products.conholdate.app/annotation) page.
@@ -30,7 +31,7 @@ Registered users can annotate any document(s) right from dashboard.
 1. When you are done annotating, click on <i class="fas fa-save"></i> icon to save your annotations permanently.
 
 ## Annotation information
-> **Only** available to registered users.
+{{< alert style="warning" >}}  **Only** available to registered users.{{< /alert>}}
 
 You can check if document has already been annotated, by whom, when and what kind of annotations were used.
 In your [dashboard](https://dashboard.conholdate.app) next to all annotated documents you will find <i class="fas fa-comments"></i> icon. By clicking on it annotation information dialog will pop up.

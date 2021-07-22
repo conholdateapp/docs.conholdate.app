@@ -17,7 +17,7 @@ You can create as many sharing links as you want, so in case if you decide to re
 1. Wait until uploading and processing is complete, then click on <i class="fas fa-link"></i> icon.
 1. Select `View`, `Sign` or `Annotate` from dropdown menu and click on `Create link` button.
 
-> Newly created link will appear in document's sharing dialog.
+{{< alert style="warning" >}}  Newly created link will appear in document's sharing dialog.{{< /alert>}}
 
 #### Advanced sharing
 Click on <i class="fas fa-share"></i> icon to expand sharing options.  
@@ -63,7 +63,7 @@ One-time link speaks for itself, one-time shared link can be viewed/opened **onl
 1. Click on one-time link checkbox to activate it.
 1. Click on `Create link` button.
 
-> Newly created link will appear in document's sharing dialog.
+{{< alert style="warning" >}}  Newly created link will appear in document's sharing dialog.{{< /alert>}}
  
 #### One-time link status
 When one-time link document is opened for the first time, one-time link becomes expired and unavailable for further access. Link status also will be updated in document's sharing dialog by fading into light-gray color.

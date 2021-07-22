@@ -14,7 +14,7 @@ The result from filling up the form can be obtained as PDF, DOC and DOCX (more f
 ## How to create Forms
 In order to create your own Form it is required to create two files: **docx** and **xml** with equal names.
 For example: `my_form.docx` and `my_form.xml`
-> Download our [form](/download?template=example-forms.zip) example for the further reference.
+{{< alert style="warning" >}}  Download our [form](/download?template=example-forms.zip) example for the further reference.{{< /alert>}}
 
 ### DOCX template
 DOCX template is your main template which holds static data/text along with dynamic data/variables.
@@ -94,23 +94,21 @@ With advanced option you can specify required or optional questions, allow/disal
 	By default it is set as **true** - required.
 - Allowing/disallowing downloads and sending resulted documents can be achieved by added `<settings>` property inside root element `<form>`, in the same way as you did for `<section>`.
 	Example:
-	```xml
-		<form>
-		...
-			<settings>
-				<download>
-					<enable>true</enable>
-					<downloadAs>PDF, DOCX</downloadAs>
-				</download>
-				<email>
-					<enable>true</enable>
-					<emailTo>test@email.com, test@secondemail.com</emailTo>
-					<emailAs>DOCX</emailAs>
-				</email>
-			</settings>
-		...
-		</form>
-	```
+```xml
+	<form>		
+		<settings>
+			<download>
+				<enable>true</enable>
+				<downloadAs>PDF, DOCX</downloadAs>
+			</download>
+			<email>
+				<enable>true</enable>
+				<emailTo>test@email.com, test@secondemail.com</emailTo>
+				<emailAs>DOCX</emailAs>
+			</email>
+		</settings>	
+	</form>
+```
 
 ### Assemble template
 Now that you have both DOCX and XML templates it is time to assemble your form.
@@ -134,11 +132,11 @@ Registered users can assemble template(s) right from dashboard.
 1. Click on the **Finish** button to generate document with parameters you inserted during wizard steps.
 1. If download resulted document is enabled you can select one of the three available formats from dropdown and download it.
 
-## Responsive design
+### Responsive design
 View your documents on any mobile or desktop devices from anywhere! [Conholdate.app](https://conholdte.app) provides a responsive layout.
 
-## Cross-browser support
+### Cross-browser support
 All major browsers such as Safari, Chrome, Firefox, Opera and Edge are supported out of the box.
 
-## Supported formats
+### Supported formats
 Currently our free online document assembly supports only **DOC** and **DOCX** templates. But we are working on adding new formats.

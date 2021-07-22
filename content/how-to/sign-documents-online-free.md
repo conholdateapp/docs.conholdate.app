@@ -10,7 +10,7 @@ All documents can be signed online with our electronic signature by document own
 ## How to sign documents online
 To sign documents registration is **not required**.  
 Online document signature is 100% **FREE** for both guest and registered users. However, by registering an account you can benifit from andvanced options and all premium features for free that are available **only** to registered users.
-> Guests are required to enter their name in order to sign a document. For registered users this is done automatically.
+{{< alert style="warning" >}}  Guests are required to enter their name in order to sign a document. For registered users this is done automatically.{{< /alert>}}
 
 ### Sign documents online without registration
 1. Go to [Online Document Signature](https://products.conholdate.app/signature) page.
@@ -30,7 +30,7 @@ Registered users can annotate any document(s) right from dashboard.
 1. When you are done with placing signatures, click on <i class="fas fa-save"></i> icon to save your signatures permanently.
 
 ## Signature information
-> **Only** available to registered users.
+{{< alert style="warning" >}}  **Only** available to registered users.{{< /alert>}}
 
 You can check if document has already been signed, by whom, when and what type of signature were used.
 In your [dashboard](https://dashboard.conholdate.app) next to all signed documents you will find <i class="fas fa-fingerprint"></i> icon. By clicking on it signature information dialog will pop up.
@@ -46,12 +46,12 @@ You have signed this document with Digital Signature on 20-03-2020
 ```
 
 ## Signature management
-> **Only** available to registered users.
+{{< alert style="warning" >}}  **Only** available to registered users.{{< /alert>}}
 
 When you create new signatures on signing a document with our electronic signature app, all signatures will be stored automatically in your account and can be reused for all further document signing.
 To manage your signatures, simply open any document with electronic signature app and go to `Signatures` tab.
 
-> All signatures are private and can be accessed **only** by their owner(s).
+{{< alert style="warning" >}}  All signatures are private and can be accessed **only** by their owner(s).{{< /alert>}}
 
 ## Supported signatures
 1. Digital Signature

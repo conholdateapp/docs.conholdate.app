@@ -17,7 +17,7 @@ Which means that you can search public documents by name or by keywords.
 ### Private full-text search
 Same as in case with public documents, all private documents are indexed by our search engine and are available to you for a full-text searching.
 So you can search your documents by name, by keyword or by phrase.
-> All private document are available only to the **owner**
+{{< alert style="warning" >}}  All private document are available only to the **owner**{{< /alert>}}
 1. [Login](https://conholdate.app/signin) to your account or [register](https://conholdate.app/signin) if you do not own one yet. It's FREE!
 1. Go to your [dashboard](https://dashboard.conholdate.app).
 1. Type desired keyword or document name in search field.
