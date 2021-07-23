@@ -1,7 +1,9 @@
 ---
 id: metadata-editor-online-free
 title: Documents Metadata Editor
-sidebar_label: Edit Documents Metadata
+menu:
+  conholdate:
+    name: "Edit Documents Metadata" 
 ---
 
 High quality free document metadata editor online.  

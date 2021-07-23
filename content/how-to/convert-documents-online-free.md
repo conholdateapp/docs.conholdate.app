@@ -1,7 +1,9 @@
 ---
 id: convert-documents-online-free
 title: Convert Documents
-sidebar_label: Convert Documents
+menu:
+  conholdate:
+    name: "Convert Documents" 
 ---
 
 High quality free document online converter.  

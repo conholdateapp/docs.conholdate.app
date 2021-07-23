@@ -1,7 +1,9 @@
 ---
 id: merge-documents-online-free
 title: Merge Documents
-sidebar_label: Merge Documents
+menu:
+  conholdate:
+    name: "Merge Documents" 
 ---
 
 Merge PDF, DOCX, XLSX, PPTX and many more other document formats online for free without installing any additional software with our height quality advanced document merging engine.

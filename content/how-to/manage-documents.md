@@ -1,7 +1,9 @@
 ---
 id: manage-documents
 title: Manage Documents
-sidebar_label: Manage Documents
+menu:
+  conholdate:
+    name: "Manage Documents" 
 ---
 
 Access your documents from anywhere and from any device.

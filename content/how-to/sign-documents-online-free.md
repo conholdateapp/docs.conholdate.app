@@ -1,7 +1,9 @@
 ---
 id: sign-documents-online-free
 title: Sign Documents
-sidebar_label: Sign Documents
+menu:
+  conholdate:
+    name: "Sign Documents" 
 ---
 
 eSign Pdf, digital signature, electronic signature and much more.  

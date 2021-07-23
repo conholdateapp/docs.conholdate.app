@@ -1,7 +1,9 @@
 ---
 id: edit-documents-online-free
 title: Edit Documents
-sidebar_label: Edit Documents
+menu:
+  conholdate:
+    name: "Edit Documents" 
 ---
 
 High quality free document editor online.  

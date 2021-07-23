@@ -1,7 +1,9 @@
 ---
 id: full-text-search-documents-online-free
 title: Search Documents
-sidebar_label: Search Documents
+menu:
+  conholdate:
+    name: "Search Documents" 
 ---
 
 ## How to full-text search documents online

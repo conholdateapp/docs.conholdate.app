@@ -1,7 +1,6 @@
 ---
 id: welcome
 title: Welcome
-sidebar_label: Welcome
 ---
 
 [Conholdate.app](https://www.conholdate.app) is a **FREE** online service that offers professional tools for document management, document manipulation and document automation.

@@ -1,7 +1,9 @@
 ---
 id: share-documents-online-free
 title: Share Documents
-sidebar_label: Share Documents
+menu:
+  conholdate:
+    name: "Share Documents" 
 ---
 
 With our FREE and unlimited document cloud storage. you can share any of your documents with your friends or colleagues via direct link, Facebook, Twitter or LinkedIn even if they do not have MS Office / OpenOffice installed. All documents can be viewed, signed and annotated directly from our built-in apps.

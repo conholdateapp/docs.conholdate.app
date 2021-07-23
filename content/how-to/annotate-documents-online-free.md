@@ -1,8 +1,9 @@
 ---
 id: annotate-documents-online-free
 title: Annotate Documents
-sidebar_label: Annotate Documents
-hideChildren: False
+menu:
+  conholdate:
+    name: "Annotate Documents"   
 ---
 
 Annotate and collaborate on your documents online for free.  

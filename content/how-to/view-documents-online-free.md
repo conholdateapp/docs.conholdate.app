@@ -1,7 +1,9 @@
 ---
 id: view-documents-online-free
 title: View Documents
-sidebar_label: View Documents
+menu:
+  conholdate:
+    name: "View Documents" 
 ---
 
 View DOCX, XLSX, PPTX and over 100+ document formats online for free without installing any additional software with our height quality advanced document viewer engine.

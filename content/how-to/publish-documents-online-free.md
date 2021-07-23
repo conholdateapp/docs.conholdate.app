@@ -1,7 +1,9 @@
 ---
 id: publish-documents-online-free
 title: Publish Documents
-sidebar_label: Publish Documents
+menu:
+  conholdate:
+    name: "Publish Documents" 
 ---
 
 Online document library.

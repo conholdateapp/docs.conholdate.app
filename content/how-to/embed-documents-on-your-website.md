@@ -1,7 +1,9 @@
 ---
 id: embed-documents-on-your-website
 title: Embed Documents
-sidebar_label: Embed Documents
+menu:
+  conholdate:
+    name: "Embed Documents" 
 ---
 
 Display documents right from your website or blog.

@@ -23,6 +23,11 @@
                         {{- end -}}
                     </div> <!-- /end of row -->
                 </div>
+                <div id="test"class="docs-sidenav order-2 col-12 col-sm-3 col-md-3 col-lg-3 col-xl-3 border-left">
+                    {{- with .Page -}}
+                        {{.TableOfContents}}
+                    {{- end -}}
+                </div>
             </div> <!-- /end of row -->
         </div> <!-- /end of container -->        
         {{- partial "footer.html" . -}}

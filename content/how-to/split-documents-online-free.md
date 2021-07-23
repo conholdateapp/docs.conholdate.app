@@ -1,7 +1,9 @@
 ---
 id: split-documents-online-free
 title: Split Documents
-sidebar_label: Split Documents
+menu:
+  conholdate:
+    name: "Split Documents" 
 ---
 
 Manage documents like a pro by splitting your documents into multiple single-pages documents or extract selected pages from document into single document. We support all major and most popular formats.
