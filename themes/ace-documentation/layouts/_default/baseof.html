@@ -10,24 +10,21 @@
         {{- partial "conholdate-menu.html" . -}}      
         <div class="container-fluid" style="margin-top: 60px;">
             <div class="row" style="background: #fff !important;">
-                <div class="docs-sidenav order-0 col-12 col-sm-3 col-md-3 col-lg-3 col-xl-3 position-sticky border-right">
+                <div id="conholdate-nav" class="docs-sidenav order-0 col-12 col-sm-3 col-md-3 col-lg-3 col-xl-3 position-sticky border-right">
                     {{- partial "menu.html" . -}}
-                </div>        
-                <div class="main col-12 order-1 col-sm-9 col-md-9 col-lg-9 col-xl-9 py-3">                
+                </div>
+                <div class="main col-12 order-1 col-sm-9 col-md-9 col-lg-9 col-xl-9 py-5">
                     {{- block "main" . }}{{- end }}
                     <div class="row">
                         {{- if and (ne .Site.Params.disableReadmoreNav true) (ne .Params.disableReadmoreNav true) -}}
                         <div class="position-relative mx-auto col-lg-12">
-                          {{ partial "next-prev-page.html" . }}
+                            {{ partial "next-prev-page.html" . }}
                         </div>
                         {{- end -}}
                     </div> <!-- /end of row -->
                 </div>
-                <div id="test"class="docs-sidenav order-2 col-12 col-sm-3 col-md-3 col-lg-3 col-xl-3 border-left">
-                    {{- with .Page -}}
-                        {{.TableOfContents}}
-                    {{- end -}}
-                </div>
+                {{- partial "tableofcontents" . -}}
+
             </div> <!-- /end of row -->
         </div> <!-- /end of container -->        
         {{- partial "footer.html" . -}}

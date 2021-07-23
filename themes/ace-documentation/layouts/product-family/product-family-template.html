@@ -12,9 +12,7 @@
         <!-- End Header -->
         {{- partial "header-landing" . -}}        
         <div id="content-container">            
-        {{ $netProduct := (index (first 1 (where (where .Site.Data.products.Items "Family" .Params.Id) "Platform" "net")) 0) }}
-        {{ $javaProduct := (index (first 1 (where (where .Site.Data.products.Items "Family" .Params.Id) "Platform" "java")) 0) }}
-        {{ partial "family-product-info" (dict "netProduct" $netProduct "javaProduct" $javaProduct "ctx" $) }}                                              
+                                     
         </div>  
         <div id=footer></div> 
     </body>   

@@ -13,15 +13,19 @@
         </div>
         <div class="navGroup">
             <h3 class="navGroupCategoryTitle">How to</h3>
+            {{ $currentPage := . }}         
             <ul>
                 {{ range .Site.Menus.conholdate }}
-                <li>
+
+
+                <li class="{{- if eq .Page.RelPermalink  $currentPage.RelPermalink}} active{{end -}}">
                     <a href="{{ .URL }}">
-                        <span>{{ .Name }}</span>  
+                        <span>{{ .Name }}</span>
                     </a>
                 </li>
                 {{ end }}
             </ul>
+
         </div>
     </div>
 </nav>
