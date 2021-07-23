@@ -20,14 +20,14 @@ Need to share a document with your visitors and/or customers? You can embed your
 ### Embed options and permissions
 With sharing permissions you can allow or disallow different actions against your documents.
 
-#### Allow/Disallow downloading document
+### Allow/Disallow downloading document
 You can enable and disable download button when embedding documents.  
 1. From your [dashboard](https://dashboard.conholdate.app) open embed dialog by clicking on <i class="fas fa-code"></i> icon.
 1. In embed dialog window click on <i class="fas fa-cog"></i> icon.
 1. In embed permissions dialog, next to `Allow downloads` click on <i class="fas fa-toggle-on"></i> or <i class="fas fa-toggle-off"></i> icons to enable or disable downloads for selected document.
 1. After click on `Save` button.
 
-#### Allow/Disallow printing document
+### Allow/Disallow printing document
 You can enable and disable print button when embedding documents.  
 1. From your [dashboard](https://dashboard.conholdate.app) open embed dialog by clicking on <i class="fas fa-code"></i> icon.
 1. In embed dialog window click on <i class="fas fa-cog"></i> icon.
