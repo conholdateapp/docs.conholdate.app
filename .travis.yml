@@ -1,7 +1,7 @@
 env:
   global:    
     - SRC_DIR=public
-    - DEST_DIR=/var/www/docs.groupdocs.com/html
+    - DEST_DIR=/var/www/docs2.conholdate.app/html
 
 before_install:
 - openssl aes-256-cbc -K $encrypted_dfdcfd5172af_key -iv $encrypted_dfdcfd5172af_iv
