@@ -1,0 +1,10 @@
+<div class="product-container">
+    <h3><a href="{{ .product.Key }}/{{ .ctx.Params.Platform }}">{{ .product.Name }} for {{ if eq .ctx.Params.Platform "net"}}.NET{{end}} {{ if eq .ctx.Params.Platform "java"}}Java{{end}}</a></h3>
+    <div class="product-description">{{ .product.Description }}</div>
+    <div class="product-buttons">
+
+            <a href="{{ .product.Key }}/net"><div class="pdt-btn btn-blue"><i class="fab fa-windows"></i> <span>Read</span></div></a>
+  
+     
+    </div>
+</div>

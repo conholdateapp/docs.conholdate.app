@@ -1,0 +1,14 @@
+{{ $favicon := resources.Get "favicon.ico" }}
+<link rel="shortcut icon" href="{{ $favicon.Permalink }}" />
+
+{{ $jquery := resources.Get "js/jquery-3.6.0.slim.min.js" }}
+<script src="{{ $jquery.Permalink }}"></script>
+
+<link rel="dns-prefetch" href="https://fonts.gstatic.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" />
+
+{{ $fontawesomeCss := resources.Get "css/fontawesome-slim.css" }}
+{{ $aceCss := resources.Get "css/ace.scss" | toCSS }}
+{{ $bundleCss := slice $fontawesomeCss $aceCss | resources.Concat "css/bundle-docs.css" | toCSS | minify }}
+
+<link rel="stylesheet" href="{{ $bundleCss.Permalink }}"/>

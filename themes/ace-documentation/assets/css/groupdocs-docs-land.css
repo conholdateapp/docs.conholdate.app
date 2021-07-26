@@ -1,0 +1,335 @@
+:root {
+    --container-width: 1200px;
+    --main-text-color: #2F2F2F;
+    --description-text-color: #8A8A8A;
+    --net-color: #028CDA;
+    --java-color: #BA3E5B;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol !important;
+}
+
+#conholdate-nav {
+    padding-left: 30px;
+}
+
+    #conholdate-nav ul, #conholdate-page-nav ul {
+        list-style: none;
+        padding-left: 20px;
+    }
+
+        #conholdate-nav ul li, #conholdate-page-nav ul li {
+            margin: 5px 0;
+        }
+
+            #conholdate-nav ul li a, #conholdate-page-nav ul li a {
+                color: rgba(0,0,0,.65);
+            }
+
+#conholdate-page-nav { 
+    margin-top: 20px;
+    padding-left: 0;
+}
+
+    #conholdate-nav ul li.active, #conholdate-page-nav ul li.active {
+        font-weight: 500;
+    }
+
+/***********
+* Top
+************/
+#top-container {
+    width: 100%;
+    background-color: #227D99;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 100px 0;
+    margin-top: 60px;
+}
+
+    #top-container > h1 {
+        font-size: 18px;
+        font-weight: normal;
+        text-transform: uppercase;
+        margin: 2px;
+    }
+
+    #top-container > h2 {
+        font-size: 13px;
+        font-weight: normal;
+        margin: 0;
+    }
+
+/************
+* Middle
+*************/
+#content-container {
+    width: var(--container-width);
+    margin: auto;
+}
+
+ul#support-buttons-container {
+    margin: 0;
+    padding: 40px;
+    text-align: center;
+}
+
+    ul#support-buttons-container > li {
+        width: 120px;
+        display: inline-block;
+        margin: 0 15px;
+    }
+
+        ul#support-buttons-container > li > a {
+            color: var(--main-text-color);
+        }
+
+            ul#support-buttons-container > li > a > div {
+                text-align: center;
+                margin-bottom: 10px;
+                font-size: 13px;
+            }
+
+                ul#support-buttons-container > li > a > div > i {
+                    font-size: 32px;
+                }
+
+.product-pilot {
+    background-color: #F4F4F4;
+}
+
+.product-row {
+    border-radius: 9px;
+    text-align: center;
+}
+
+.product-splitter {
+    width: 1px;
+    height: 200px;
+    display: inline-block;
+    background-color: #F4F4F4;
+    margin: 0 45px;
+    vertical-align: bottom;
+}
+
+.product-container {
+    width: 550px;
+    margin: auto;
+    text-align: center;
+    display: inline-block;
+    padding: 30px;
+}
+
+.product-center {
+    display: block;
+}
+
+.product-container > h3 {
+    font-size: 18px;
+    color: var(--main-text-color);
+}
+
+    .product-container > h3 > a {
+        color: var(--main-text-color);
+    }
+
+.product-container > .product-description {
+    font-size: 13px;
+    color: var(--description-text-color);
+    height: 50px;
+    margin-bottom: 20px;
+}
+
+.product-container > .product-buttons {
+    width: 100%;
+    text-align: center;
+}
+
+    .product-container > .product-buttons > a {
+        color: #FFFFFF;
+    }
+
+.pdt-btn {
+    margin: 0 10px;
+    display: inline-block;
+    padding: 10px 38px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+    .pdt-btn > i {
+        font-size: 14px;
+        margin-right: 5px;
+    }
+
+    .pdt-btn > span {
+        font-size: 13px;
+    }
+
+.btn-blue {
+    background-color: var(--net-color);
+}
+
+.btn-red {
+    background-color: var(--java-color);
+}
+
+.main {
+    flex: 0 0 50%;
+}
+
+/*
+* PRODUCT FAMILY
+*/
+.content-container {
+    display: inline-table;
+}
+
+.docs-block {
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
+.docs-container {
+    width: 595px;
+    height: 400px;
+}
+
+    .docs-container > .docs-container-icon {
+        text-align: center;
+        font-size: 50px;
+    }
+
+#left-container-family {
+    border-right: 1px solid #f4f4f4;
+}
+
+    #left-container-family > .docs-container-icon > i {
+        color: var(--net-color);
+    }
+
+#right-container-family > .docs-container-icon > i {
+    color: var(--java-color);
+}
+
+.docs-container > h3 {
+    text-align: center;
+}
+
+.docs-container-title {
+    margin-top: 40px;
+    height: 55px;
+}
+
+.docs-container-half {
+    width: 50%;
+    float: left;
+}
+
+.docs-container-title-icon, .docs-container-desc {
+    float: left;
+}
+
+.docs-container-title-icon {
+    font-size: 36px;
+    margin: 0 10px;
+    color: #2f2f2f;
+    width: 36px;
+}
+
+.docs-container-desc {
+    width: calc(100% - 66px);
+}
+
+    .docs-container-desc > h4 {
+        margin: 0 0 4px 0;
+        color: #2f2f2f;
+        font-weight: normal;
+    }
+
+    .docs-container-desc > span {
+        font-size: 12px;
+        color: #8a8a8a;
+    }
+
+.docs-container-links {
+    height: 180px;
+}
+
+    .docs-container-links ul {
+        margin-left: 51px;
+        padding: 0;
+    }
+
+    .docs-container-links li {
+        margin: 13px 0;
+    }
+
+    .docs-container-links i {
+        color: #2f2f2f;
+        margin-right: 10px;
+    }
+
+    .docs-container-links a {
+        color: #1583c8;
+    }
+
+.docs-container-button {
+    width: 100%;
+    text-align: center;
+}
+
+.code-container {
+    background-color: #f4f4f4;
+    width: 526px;
+    padding: 30px;
+    border-radius: 5px;
+    margin: 0 5px;
+}
+
+    .code-container > h3, .examples-container > h3 {
+        margin-bottom: 15px;
+        color: #2f2f2f;
+    }
+
+        .code-container > h3 > i {
+            margin-right: 10px;
+        }
+
+    .code-container ul {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        float: left;
+    }
+
+    .code-container li, .examples-container li {
+        height: 37px;
+        margin-top: 25px;
+        text-align: left;
+    }
+
+    .code-container a, .examples-container a {
+        color: #2f2f2f;
+    }
+
+.examples-container {
+    text-align: center;
+    display: block;
+}
+
+    .examples-container > ul {
+        width: 350px;
+        margin: auto;
+        padding: 0;
+    }
+
+    .examples-container .docs-container-title-icon {
+        width: 46px;
+    }

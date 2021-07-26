@@ -1,0 +1,74 @@
+{
+  "Items": [
+    {
+      "Family": "assembly",
+      "Key": "assembly",
+      "Name": "Assemble Forms Online"
+    },
+    {
+      "Family": "annotation",
+      "Key": "annotation",
+      "Name": "Annotate Documents"
+    },
+    {
+      "Family": "conversion",
+      "Key": "conversion",
+      "Name": "Convert Documents"
+    },
+    {
+      "Family": "embed",
+      "Key": "embed",
+      "Name": "Embed Documents"
+    },
+    {
+      "Family": "editor",
+      "Key": "editor",
+      "Name": "Edit Documents"
+    },
+    {
+      "Family": "metadata",
+      "Key": "metadata",
+      "Name": "Edit Documents Metadata"
+    },
+    {
+      "Family": "manage",
+      "Key": "manage",
+      "Name": "Manage Documents"
+    },
+    {
+      "Family": "merger",
+      "Key": "merger",
+      "Name": "Merge Documents"
+    },
+    {
+      "Family": "publish",
+      "Key": "publish",
+      "Name": "Publish Documents"
+    },
+    {
+      "Family": "search",
+      "Key": "search",
+      "Name": "Search Documents"
+    },
+    {
+      "Family": "share",
+      "Key": "share",
+      "Name": "Share Documents"
+    },
+    {
+      "Family": "sign",
+      "Key": "sign",
+      "Name": "Sign Documents"
+    },
+    {
+      "Family": "split",
+      "Key": "split",
+      "Name": "Split Documents"
+    },
+    {
+      "Family": "view",
+      "Key": "view",
+      "Name": "View Documents"
+    }
+  ]
+}

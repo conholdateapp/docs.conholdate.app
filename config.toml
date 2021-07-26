@@ -1,0 +1,76 @@
+baseURL                     = "https://docs.conholdate.app/"
+languageCode                = "en-us"
+title                       = "Docs - Free Online Document Viewer, Conversion, Signature, Editor &amp; Annotation"
+theme                       = "ace-documentation"
+
+disableKinds                = ["RSS", "sitemap", "categories", "tags", "taxonomy", "taxonomyTerm"]
+
+
+# (Optional) Set this to true to enable 'Last Modified by' date and git author
+#  information on 'doc' type pages.
+enableGitInfo               = true
+
+
+# Markup configure section
+# See https://gohugo.io/getting-started/configuration-markup/
+[markup]
+    defaultMarkdownHandler  = "goldmark"    
+    [markup.goldmark.renderer]
+        unsafe              = true
+    [markup.tableOfContents]
+        startLevel          = 1
+        endLevel            = 4
+        ordered             = false
+    [markup.highlight]        
+        style               = "github"
+
+[outputs]
+    home                    = [ "HTML", "SITEMAP"]
+    section                 = [ "HTML" ]
+    page                    = [ "HTML" ]
+
+[outputFormats.SITEMAP]
+    MediaType               = "application/xml"
+    BaseName                = "product-sitemap"
+    IsHTML                  = false
+    IsPlainText             = true
+    noUgly                  = true
+    Rel                     = "sitemap"
+
+[Params]
+    contentDir              = "content"
+    google_tag_manager_id   = "UA-126283948-2"
+    sitemapMax              = 49999
+	
+    disableSearch           = false
+
+    # Set source repository location.
+    # Used for 'Last Modified' and 'Edit this page' links.
+    GitHubRepo              = 'https://github.com/conholdateapp/docs'
+    
+    # Enable 'Edit this page' links for 'doc' page type.
+    # Disabled by default. Uncomment to enable. Requires 'GitHubRepo' param.    
+    GitHubEditPath          = 'edit/master'    #https://github.com/conholdateapp/docs/edit/master/docs/Welcome.md
+
+    GitHubDateFormat        = 'January 2, 2006'
+
+    ProductFamilies = [ 			
+            { Key = "annotation",       Name = "Annotate Documents",		Url = "annotate-documents-online-free", Description = "Annotate and collaborate on your documents online for free." },
+			{ Key = "assemble",         Name = "Assemble Forms Online",     Url = "assemble-forms-online-free", Description = "Assemble your own forms and document wizards online made easy with our document assembly engine." },			
+			{ Key = "convert",          Name = "Convert Documents",         Url = "convert-documents-online-free", Description = "High quality free document online converter." },			
+			{ Key = "embed",          	Name = "Embed Documents",        	Url = "embed-documents-on-your-website", Description = "Display documents right from your website or blog." },			
+			{ Key = "edit",          	Name = "Edit Documents",        	Url = "edit-documents-online-free", Description = "High quality free document editor online." },			
+			{ Key = "metadata",         Name = "Edit Documents Metadata",   Url = "metadata-editor-online-free", Description = "High quality free document metadata editor online." },		
+			{ Key = "merge",			Name = "Merge Documents",			Url = "merge-documents-online-free", Description = "Merge PDF, DOCX, XLSX, PPTX and many more other document formats online for free without installing any additional software with our height quality advanced document merging engine." },		
+			{ Key = "manage",           Name = "Manage Documents",        	Url = "manage-documents", Description = "Access your documents from anywhere and from any device." },					
+			{ Key = "publish",          Name = "Publish Documents",         Url = "publish-documents-online-free", Description = "Online document library." },		
+			{ Key = "search",           Name = "Search Documents",        	Url = "full-text-search-documents-online-free", Description = "Search for documents or document's content using our advanced document full-text search engine." },		
+			{ Key = "share",            Name = "Share Documents",        	Url = "share-documents-online-free", Description = "With our FREE and unlimited document cloud storage. you can share any of your documents with your friends or colleagues via direct link, Facebook, Twitter or LinkedIn even if they do not have MS Office / OpenOffice installed." },		
+			{ Key = "sign",             Name = "Sign Documents",        	Url = "sign-documents-online-free", Description = "eSign Pdf, digital signature, electronic signature and much more. All documents can be signed online with our electronic signature by document owner or by sharing documents for e-signatures with registered users and guest users. " },		
+			{ Key = "split",            Name = "Split Documents",        	Url = "split-documents-online-free", Description = "Manage documents like a pro by splitting your documents into multiple single-pages documents or extract selected pages from document into single document. We support all major and most popular formats." },		
+			{ Key = "view",             Name = "View Documents",        	Url = "view-documents-online-free", Description = "View DOCX, XLSX, PPTX and over 100+ document formats online for free without installing any additional software with our height quality advanced document viewer engine." },		
+        ]
+
+[Params.Sitemap]
+	changeFreq              = "weekly"
+	priority                = 0.5

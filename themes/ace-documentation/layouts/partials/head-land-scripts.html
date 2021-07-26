@@ -1,0 +1,14 @@
+{{ $favicon := resources.Get "favicon.ico" }}
+<link rel="shortcut icon" href="{{ $favicon.Permalink }}" />
+{{ $jquery := resources.Get "js/jquery-3.6.0.slim.min.js" }}
+<script src="{{ $jquery.Permalink }}"></script>
+<link rel="dns-prefetch" href="https://fonts.gstatic.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" />
+{{ $openSansCss := resources.Get "fonts/open-sans.css" }}
+{{ $bootstrapCss := resources.Get "css/aspose-bootstrap-land.css" }}
+{{ $fontawesomeCss := resources.Get "css/fontawesome-slim-land.css" }}
+{{ $style := resources.Get "css/groupdocs-docs-land.css" }}
+{{ $styleMobile := resources.Get "css/groupdocs-docs.mobile-land.css" }}
+{{ $bundleCss := slice $openSansCss $bootstrapCss $fontawesomeCss $style $styleMobile | resources.Concat "css/bundle-land.css" | toCSS | minify }}
+
+<link rel="stylesheet" type="text/css" href="{{ $bundleCss.Permalink }}" />

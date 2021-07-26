@@ -1,0 +1,31 @@
+<nav class="navbar navbar-expand-md navbar-light pl-0">
+    <button class="navbar-toggler navbar-toggler-right collapsed" type="button" data-toggle="collapse" data-target="#sidenav-left-collapse" aria-controls="sidenav-left-collapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse align-items-start flex-column" id="sidenav-left-collapse">
+        <div class="navGroup">
+            <h3 class="navGroupCategoryTitle">Overview</h3>
+            <ul>
+                <li class="navListItem navListItemActive">
+                    <a class="navItem" href="/welcome">Welcome</a>
+                </li>
+            </ul>
+        </div>
+        <div class="navGroup">
+            <h3 class="navGroupCategoryTitle">How to</h3>
+            {{ $currentPage := . }}         
+            <ul>
+                {{ range .Site.Menus.conholdate }}
+
+
+                <li class="{{- if eq .Page.RelPermalink  $currentPage.RelPermalink}} active{{end -}}">
+                    <a href="{{ .URL }}">
+                        <span>{{ .Name }}</span>
+                    </a>
+                </li>
+                {{ end }}
+            </ul>
+
+        </div>
+    </div>
+</nav>

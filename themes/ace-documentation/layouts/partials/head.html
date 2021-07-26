@@ -1,0 +1,44 @@
+﻿<head>
+    <base href="{{ .Site.BaseURL }}">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="View, convert, sign, edit, annotate, manage and share documents online for free">
+
+    <meta name="author" content="Conholdate App">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="View, convert, sign, edit, annotate, manage and share documents online for free" />
+    <meta name="twitter:title" content="{{(print .Title " - " .Site.Title)}}" />
+    <meta name="twitter:description" content="View, convert, sign, edit, annotate, manage and share documents online for free" />
+    <meta name="twitter:image" content="https://Conholdate.App/images/conholdate_share@2x.png" />
+    <!-- Facebook Open Graph -->
+    <meta property="og:url" content="{{ .Site.BaseURL }}" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="{{(print .Title " - " .Site.Title)}}" />
+    <meta property="og:description" content="View, convert, sign, edit, annotate, manage and share documents online for free" />
+    <meta property="og:image" content="https://Conholdate.App/images/conholdate_share@2x.png" />
+    <meta property="og:image:height" content="636" />
+    <meta property="og:image:width" content="1280" />
+
+    <link rel="canonical" href="{{ .Permalink }}">
+    <title>
+        {{(print .Title " - " .Site.Title)}}
+    </title>
+    <!-- Only include the tracking when using `hugo` or adding `--environment production` -->
+    {{- if eq (getenv "HUGO_ENV") "production" | or (eq hugo.Environment "production") -}}
+    <meta name="google-site-verification" content="n0rtymY2bXXsnMn_HlCrA-IUeTfvuNV4hs_gW83kNkU">
+    <meta name="google-site-verification" content="QsvolQStNoH5gGgY2mESUljn4pZ4kMod1jsDKvAKg0w">
+    {{- if .Site.Params.google_tag_manager_id -}}
+    {{- partial "google_tag_manager.html" . -}}
+    {{- end -}}
+    {{- end -}}
+
+    {{ partial "head-docs-scripts" }}
+    {{ partial "head-total-platform-scripts.html" }}
+
+    {{ partial "head-family-scripts" }}
+
+    {{ partial "head-land-scripts" }}
+
+</head>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.Language.Lang }}">
+    {{- partial "head.html" . -}}
+<body>
+    {{- if .Site.Params.google_tag_manager_id -}}
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id={{ .Site.Params.google_tag_manager_id }}" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    {{- end -}}
+    <!-- Start Header -->
+    <!-- Venture top menu -->
+    <script>(function (i, s, o, g, r, a, m) { i['ContainerizeMenuObject'] = r; i[r] = i[r] || function () { (i[r].q = i[r].q || []).push(arguments) }, i[r].l = 1 * new Date(); a = s.createElement(o), m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.append(a) })(window, document, 'script', 'https://menu-new.containerize.com/scripts/engine.min.js?v=1.0.1', 'conholdateapp-en');</script>
+
+    <!-- End Header -->
+    {{- partial "header-landing" . -}}
+    <!-- Main Content Start -->
+    <div id="content-container">
+
+        <!-- product -->
+        <div class="product-row product-pilot">
+            <div class="product-container product-center">
+                <h3><a href="welcome">Welcome</a></h3>
+                <div class="product-description">
+                    <a href="https://www.conholdate.app">Conholdate.app</a> is a <strong>FREE</strong> online service that offers professional tools for document management, document manipulation and document automation.
+                    It was build from ground up using latest high-end technologies and APIs from leading software company <a href="https://www.conholdate.com">Conholdate</a>.
+                </div>
+            </div>
+        </div>
+
+        {{ range sort (.Site.Params.ProductFamilies ) "Name" }}
+        {{ .Scratch.Add "counter" 0 }}
+        {{- $k := $.Scratch.Get "counter" -}}
+        {{- if (modBool $k 2) }}
+        <div class="product-row">
+            {{- end }}
+            {{- partial "home-product" . -}}
+            {{- if (modBool $k 2) }}
+            <div class="product-splitter"></div>
+            {{- end -}}
+            {{- if not (modBool $k 2) -}}
+        </div>
+        {{ end }}
+        {{- $.Scratch.Add "counter" 1 -}}
+        {{- end -}}
+    </div>
+    <!-- Main Content End-->
+
+</body>    
+</html>

@@ -1,0 +1,400 @@
+$primary:       #007bff;
+$secondary:     #6610f2;
+$success:       #28a745;
+$info:          #17a2b8;
+$warning:       #ffc107;
+$danger:        #dc3545;
+$light:         #f8f9fa;
+$dark:          #343a40;
+
+@import "bootstrap/bootstrap";
+@import "groupdocs-custom";
+
+/* Typography styling */
+.main > h1{
+    padding-top: 2rem;
+}
+
+.main > h2{
+    padding-top: 4rem;
+    margin-top:-1rem;   
+}
+
+.main > h3, .main > h4, .main > h5, .main > h6{
+    padding-top: 4rem;
+    margin-top:-3rem;
+}
+
+.main p img
+{
+     max-width: 100%;
+}
+
+.haschildren ul{
+    color: gray;
+    display:none;
+}
+
+.haschildren.active ul, .haschildren.parent ul{
+    display:block;
+}
+
+
+
+.highlight > pre {
+    padding:15px;
+    background-color: #fff;
+    
+    border: 1px solid;    
+    border-color:  #dee2e6;
+    border-radius: 0 0 0.25rem 0.25rem;
+}
+
+.docs-sidenav{ 
+    overflow-y: auto; // CUSTOM
+}
+/* Side navigation menus */
+.docs-sidenav span.badge.badge-primary, .docs-toc span.badge.badge-primary{
+    font-size: 10px;
+}
+
+
+.docs-toc{
+    padding-top: 10px;
+}
+
+.docs-toc a{
+    font-size: 14px;
+    color: gray;
+}
+
+.docs-toc a:hover{
+    color: #333;
+}
+
+.docs-toc ul{
+    list-style: none;
+    padding-left:8px;
+    margin-top:3px;
+}
+
+.docs-toc ul:first-child{
+    padding-left:0;
+}
+
+/* Table tweak for JavaScript methods */
+table td:first-child > code{
+    word-break: normal;
+}
+
+table > tbody > tr > td, .bd-content > table > tbody > tr > th, .bd-content > table > tfoot > tr > td, .bd-content > table > tfoot > tr > th, .bd-content > table > thead > tr > td, .bd-content > table > thead > tr > th {
+    padding: .75rem;
+    vertical-align: top;
+    border: 1px solid #dee2e6;
+}
+
+
+// CONTAINERIZE.FESS SEARCH
+/* SEARCH */
+input[type='text'][name="q"] {
+	max-height: 40px;
+  }
+
+.fessWrapper table,
+.fessWrapper table td,
+.fessWrapper table th {
+	border: 0!important
+}
+
+.fessWrapper table {
+	margin: 0
+}
+
+.fessWrapper .form-control.short {
+	border-radius: 100px;
+	min-height: 22px;
+	font-size: 14px;
+	max-height: 22px;
+	display: block
+}
+
+.fessWrapper .media-body.description {
+	font-size: 14px
+}
+
+.fessWrapper #result .body cite {
+	color: #093;
+	font-style: normal;
+	display: inline
+}
+
+.fessWrapper .media-body {
+	width: 100%;
+	display: block;
+	clear: both;
+	overflow: visible;
+	flex: none;
+	zoom: normal!important;
+	text-overflow: initial
+}
+
+.fessPopup h3.title {
+	line-height: 32px;
+	font-size: 18px;
+	width: 100%;
+	display: block;
+	white-space: nowrap;
+	overflow: visible!important;
+	text-overflow: inherit!important
+}
+
+.fessPopup h3.title a {
+	color: #1a89d0!important;
+	white-space: normal!important;
+	display: block;
+	width: 100%;
+	text-overflow: initial;
+	overflow: visible!important
+}
+
+.fessPopup h3.title a:hover {
+	opacity: .8!important;
+}
+
+.fessWrapper #result ol li {
+	margin-bottom: 5px;
+	border-bottom: 1px solid #eee;
+	padding-bottom: 10px
+}
+
+.fessWrapper .media:first-child {
+	margin-top: 0
+}
+
+.fessWrapper .thumbnailBox {
+	display: none!important
+}
+
+.fessWrapper .pagination>li>a,
+.fessWrapper .pagination>li>span {
+	border-radius: 100%!important;
+	margin: 2px;
+	font-size: 16px;
+	width: 24px;
+	height: 24px;
+	line-height: 24px;
+	text-align: center;
+	padding: 0
+}
+
+#searchResultList body {
+	width: 100%;
+	display: block
+}
+
+.fessWrapper .order-box {
+	width: 12%
+}
+
+.fessWrapper .order {
+	position: relative
+}
+
+.fessWrapper button.close {
+	position: absolute;
+	right: 0;
+	top: 0;
+	background: #dc4342;
+	z-index: 9;
+	opacity: 1!important;
+	width: 32px;
+	height: 32px;
+	line-height: 20px;
+	font-size: 18px;
+	color: #fff!important;
+	text-shadow: none;
+	outline: 0!important
+}
+
+.fessWrapper .close:focus,
+.fessWrapper .close:hover {
+	color: #000;
+	text-decoration: none;
+	cursor: pointer;
+	opacity: .5
+}
+
+.fessWrapper .media {
+	display: block
+}
+
+.site.ellipsis {
+	font-size: 13px
+}
+
+.fessOverlay {
+	background: rgba(0, 0, 0, .6)
+}
+
+.fessPopup {
+	max-height: 500px;
+	margin-top: 70px!important;
+	overflow-x: hidden!important;
+	position: relative
+}
+
+.fessPopup::-webkit-scrollbar {
+	width: .2em
+}
+
+.fessPopup::-webkit-scrollbar-track {
+	box-shadow: inset 0 0 6px rgba(0, 0, 0, .3)
+}
+
+.fessPopup::-webkit-scrollbar-thumb {
+	background-color: #a9a9a9;
+	outline: 1px solid #708090
+}
+
+@media(max-width:1024px) {
+	.fessPopup {
+		max-height: inherit!important
+	}
+	.fessWrapper .order-box {
+		width: 30%;
+		padding-right: 30px
+	}
+}
+
+@media(max-width:668px) {
+	.result-header tr {
+		display: flex;
+		flex-flow: row;
+		justify-content: space-between;
+		align-items: center
+	}
+	.result-header tr td.order-box {
+		width: 30%!important
+	}
+	.fessWrapper .pagination {
+		display: flex;
+		flex-flow: wrap;
+		align-items: center;
+		justify-content: center
+	}
+	.pagination li {
+		margin-bottom: 0!important
+	}
+	.fessWrapper .pagination>li>a,
+	.fessWrapper .pagination>li>span {
+		width: 24px;
+		height: 24px;
+		line-height: 24px
+	}
+	.fessWrapper {
+		padding: 0!important
+	}
+	.fessOverlay .fessPopup {
+		margin: 4% 5% 1% 5%
+	}
+}
+
+.fessWrapper .order select.form-control {
+	appearance: none;
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	min-height: 22px
+}
+
+.fessWrapper .order {
+	position: relative
+}
+
+.fessWrapper .order:after {
+	content: "\f107";
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	font: normal normal normal 14px/1 FontAwesome;
+	width: 32px;
+	height: 32px
+}
+
+@media (max-width:47.9em) {
+	.fessPopup h3.title {
+		line-height: 24px;
+		font-size: 15px
+	}
+}
+
+
+/* Widget */
+
+.fessForm table {
+	border: 0!important;
+	width: 100%;
+	border-collapse: collapse;
+	margin-top: 15px
+}
+
+.fessForm table td,
+.fessForm table th {
+	border: 0!important;
+	padding: 0
+}
+
+.fessForm table td:first-child {
+	width: 80%
+}
+
+.fessForm table td:last-child {
+	width: 20%
+}
+
+.fessForm table td:first-child input {
+	width: 100%;
+	border: 1px solid #e2e2e2;
+	border-radius: 6px 0 0 6px;
+	min-height: 40px;
+	padding: 10px;
+	box-sizing: border-box;
+	outline: 0!important
+}
+
+.fessForm table td:last-child button {
+	background: #006bb0!important;
+	color: #fff!important;
+	border-radius: 0 6px 6px 0!important;
+	font-size: 14px!important;
+	font-weight: 500!important;
+	border: 0!important;
+	padding: 6px 15px!important;
+	cursor: pointer!important;
+	height: 40px;
+	min-height: 40px;
+	max-height: 40px;
+	box-sizing: border-box;
+	width: 100%;
+	outline: 0!important
+}
+
+.fessForm table td:last-child button:hover {
+	opacity: .8!important
+}
+
+@media (max-width:768px) and (min-width:686px) {
+	.fessForm table tr {
+		display: flex;
+		flex-flow: wrap
+	}
+	.fessForm table td:first-child,
+	.fessForm table td:last-child {
+		width: 100%;
+		max-width: 100%;
+		min-width: 100%
+	}
+	.fessForm table td:first-child input,
+	.fessForm table td:last-child button {
+		border-radius: 0!important
+	}
+}

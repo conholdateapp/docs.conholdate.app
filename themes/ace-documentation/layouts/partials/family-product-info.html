@@ -1,0 +1,183 @@
+<!-- Block #1 -->
+<div class="docs-block">
+    <!-- Left -->    
+    {{ with  .netProduct }}  
+    <div class="content-container docs-container" 
+    {{- if eq .Family "total" }}      
+    style="height: auto;" 
+    {{- end -}}
+    id="left-container-family">
+        <!-- Platform Icon -->
+        <div class="docs-container-icon">
+            <i class="fab fa-windows"></i>
+        </div>
+        <!-- Title -->        
+        <h3><a style="color: inherit;" href="{{ .ctx.Site.BaseURL }}{{ .Family }}/{{ .Platform }}">{{ .Name }}</a></h3>
+        {{- if ne .Family "total" }}      
+        <!-- Getting Started / Developer Guide -->
+        <div class="docs-container-title">
+            <div class="docs-container-half">
+                <div class="docs-container-title-icon">
+                    <i class="fas fa-stopwatch"></i>
+                </div>
+                <div class="docs-container-desc">
+                    <h4>Getting Started</h4>
+                    <span>Start quickly with our getting started documentation</span>
+                </div>
+            </div>
+            <div class="docs-container-half">
+                <div class="docs-container-title-icon">
+                    <i class="fas fa-book"></i>
+                </div>
+                <div class="docs-container-desc">
+                    <h4>Developer Guide</h4>
+                    <span>Articles and guidelines for basic and advanced development</span>
+                </div>
+            </div>
+        </div>
+        <!-- Links -->
+        <div class="docs-container-links">
+            <div class="docs-container-half">
+                <ul>
+                    <li><i class="far fa-file-alt"></i><a href="{{ .ctx.Site.BaseURL }}{{ .Family }}/{{ .Platform }}/features-overview">Features Overview</a></li>
+                    <li><i class="far fa-file-alt"></i><a href="{{ .ctx.Site.BaseURL }}{{ .Family }}/{{ .Platform }}/supported-document-formats">Supported Document Formats</a></li>
+                    <li><i class="far fa-file-alt"></i><a href="{{ .ctx.Site.BaseURL }}{{ .Family }}/{{ .Platform }}/system-requirements">System Requirements</a></li>
+                    <li><i class="far fa-file-alt"></i><a href="{{ .ctx.Site.BaseURL }}{{ .Family }}/{{ .Platform }}/installation">Installation</a></li>
+                </ul>
+            </div>
+            <div class="docs-container-half">
+                <ul>
+                    <li><i class="far fa-file-alt"></i><a href="{{ .ctx.Site.BaseURL }}{{ .Family }}/{{ .Platform }}/basic-usage">Basic Usage</a></li>
+                    <li><i class="far fa-file-alt"></i><a href="{{ .ctx.Site.BaseURL }}{{ .Family }}/{{ .Platform }}/advanced-usage">Advanced Usage</a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- More Button -->
+        <div class="docs-container-button">
+            <a class="pdt-btn btn-blue" href="{{ .ctx.Site.BaseURL }}{{ .Family }}/{{ .Platform }}">More <i class="fas fa-arrow-right"></i></a>
+        </div>
+        {{- end -}}
+    </div>    
+    {{ end }}                    
+    <!-- Right -->
+    {{ with  .javaProduct }}  
+    <div class="content-container docs-container" 
+    {{- if eq .Family "total" }}      
+    style="height: auto;" 
+    {{- end -}} id="right-container-family">
+        <!-- Platform Icon -->
+        <div class="docs-container-icon">
+            <i class="fab fa-java"></i>
+        </div>
+        <!-- Title -->
+        <h3><a style="color: inherit;" href="{{ .ctx.Site.BaseURL }}{{ .Family }}/{{ .Platform }}">{{ .Name }}</a></h3>
+        {{- if ne .Family "total" }}    
+        <!-- Getting Started / Developer Guide -->
+        <div class="docs-container-title">
+            <div class="docs-container-half">
+                <div class="docs-container-title-icon">
+                    <i class="fas fa-stopwatch"></i>
+                </div>
+                <div class="docs-container-desc">
+                    <h4>Getting Started</h4>
+                    <span>Start quickly with our getting started documentation</span>
+                </div>
+            </div>
+            <div class="docs-container-half">
+                <div class="docs-container-title-icon">
+                    <i class="fas fa-book"></i>
+                </div>
+                <div class="docs-container-desc">
+                    <h4>Developer Guide</h4>
+                    <span>Articles and guidelines for basic and advanced development</span>
+                </div>
+            </div>
+        </div>
+        <!-- Links -->
+        <div class="docs-container-links">
+            <div class="docs-container-half">
+                <ul>
+                    <li><i class="far fa-file-alt"></i><a href="{{ .ctx.Site.BaseURL }}{{ .Family }}/{{ .Platform }}/features-overview">Features Overview</a></li>
+                    <li><i class="far fa-file-alt"></i><a href="{{ .ctx.Site.BaseURL }}{{ .Family }}/{{ .Platform }}/supported-document-formats">Supported Document Formats</a></li>
+                    <li><i class="far fa-file-alt"></i><a href="{{ .ctx.Site.BaseURL }}{{ .Family }}/{{ .Platform }}/system-requirements">System Requirements</a></li>
+                    <li><i class="far fa-file-alt"></i><a href="{{ .ctx.Site.BaseURL }}{{ .Family }}/{{ .Platform }}/installation">Installation</a></li>               
+                </ul>
+            </div>
+            <div class="docs-container-half">
+                <ul>
+                    <li><i class="far fa-file-alt"></i><a href="{{ .ctx.Site.BaseURL }}{{ .Family }}/{{ .Platform }}/basic-usage">Basic Usage</a></li>
+                    <li><i class="far fa-file-alt"></i><a href="{{ .ctx.Site.BaseURL }}{{ .Family }}/{{ .Platform }}/advanced-usage">Advanced Usage</a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- More Button -->
+        <div class="docs-container-button">
+            <a class="pdt-btn btn-blue" href="{{ .ctx.Site.BaseURL }}{{ .Family }}/{{ .Platform }}">More <i class="fas fa-arrow-right"></i></a>
+        </div>
+        {{- end -}}
+    </div>
+    {{ end }}  
+</div>
+<!-- Block #2 -->
+<div class="docs-block">
+    <!-- Left -->
+    {{ with  .netProduct }}  
+    <div class="content-container code-container">
+        <h3><i class="fas fa-code"></i>.NET Code Examples</h3>
+        <ul>
+            {{- range .CodeExamples -}}
+            <li>
+                <div class="docs-container-title-icon">
+                    <i class="fab fa-github"></i>
+                </div>
+                <div class="docs-container-desc">
+                    <h4><a href="{{ .Url }}">{{ .Name }}</a></h4>
+                    <span>{{ .Description }}</span>
+                </div>
+            </li>
+            {{- end -}} 
+        </ul>
+    </div>
+    {{ end }}
+    <!-- Right -->
+    {{ with  .javaProduct }}  
+    <div class="content-container code-container">
+        <h3><i class="fas fa-code"></i>Java Code Examples</h3>
+        <ul>
+            {{- range .CodeExamples -}}
+            <li>
+                <div class="docs-container-title-icon">
+                    <i class="fab fa-github"></i>
+                </div>
+                <div class="docs-container-desc">
+                    <h4><a href="{{ .Url }}">{{ .Name }}</a></h4>
+                    <span>{{ .Description }}</span>
+                </div>
+            </li>
+            {{- end -}} 
+        </ul>
+    </div>
+    {{ end }}
+</div>
+<!-- Block #3 -->
+<div class="docs-block">
+    {{ with  .netProduct }}  
+    <div class="content-container examples-container">
+        <h3><i class="fas fa-desktop"></i>Live Showcases</h3>
+        <ul>
+            {{- range .LiveDemo -}}
+            <li>
+                <div class="docs-container-title-icon">
+                    <i class="{{ .Icon }}"></i>
+                </div>
+                <div class="docs-container-desc">
+                    <h4><a href="{{ .Url }}">{{ .Name }}</a></h4>
+                    <span>{{ .Description }}</span>
+                </div>
+            </li>
+            {{- end -}}
+        </ul>
+    </div>    
+    {{ end }}
+</div>
+
