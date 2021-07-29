@@ -16,7 +16,7 @@ install:
 - sudo dpkg -i hugo_extended_0.67.1_Linux-64bit.deb
 
 script:
-- hugo
+- hugo --minify
 - rm $SRC_DIR/product-sitemap.xml # product-sitemap.xml is built on every "hugo" command call, but we don't need it to be deployed for common pages separately. That's why we have to remove it.
 
 after_success:
