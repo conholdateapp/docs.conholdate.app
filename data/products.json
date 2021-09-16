@@ -69,6 +69,26 @@
       "Family": "view",
       "Key": "view",
       "Name": "View Documents"
+    },
+    {
+      "Family": "lock",
+      "Key": "lock",
+      "Name": "Lock Documents"
+    },
+    {
+      "Family": "unlock",
+      "Key": "unlock",
+      "Name": "Unlock Documents"
+    },
+    {
+      "Family": "organizations",
+      "Key": "organizations",
+      "Name": "Organizations"
+    },
+    {
+      "Family": "categories",
+      "Key": "categories",
+      "Name": "Organization Categories"
     }
   ]
 }

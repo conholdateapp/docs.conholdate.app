@@ -9,7 +9,7 @@ menu:
 ## How to full-text search documents online
 Search for documents or document's content using our advanced document full-text search engine.
 
-### Public full-text search
+### Public search
 All public [Documents](https://library.conholdate.app/files) are index by our search engine and can be full-text searched.
 Which means that you can search public documents by name or by keywords.
 1. Go to [Documents](https://library.conholdate.app/files).
@@ -25,8 +25,6 @@ So you can search your documents by name, by keyword or by phrase.
 1. Type desired keyword or document name in search field.
 1. Click on <i class="fas fa-search"></i> icon.
 
-## Coming soon
-Following is a list of coming soon features:
-
-### Search filters
-Different search filters and options.
+### Advanced search options
+1. Click on <i class="fa fa-sliders"></i> to open advanced options.
+1. Select option you need.

@@ -29,3 +29,10 @@ Document sharing and managing is easy and intuitive.
 1. [Login](https://conholdate.app/signin) to your account or [register](https://conholdate.app/signin) if you do not own one yet. It's FREE!
 1. Go to your [dashboard](https://dashboard.conholdate.app).
 1. Click on <i class="fas fa-ellipsis-v"></i> icon and select `Delete`.
+
+### How to use folders
+1. [Login](https://conholdate.app/signin) to your account or [register](https://conholdate.app/signin) if you do not own one yet. It's FREE!
+1. Go to your [dashboard](https://dashboard.conholdate.app).
+1. Click on 'More' drop down and select `Add folder`.
+1. Enter folder name and click 'Create' button.
+1. When folder is created you can move any documents in it. Also you can create as many sub-folders as you need.
