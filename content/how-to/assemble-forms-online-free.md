@@ -35,10 +35,13 @@ To create a form using our builtin Forms builder please navigate to this [link](
 	> Dropdown
 	> Multiple choise
 	> Radio
+1. If you have several sections on the same step you can change theirs order by using `Move Up` and `Move Down` buttons.
+1. To delete step you cab use `Remove` button.
 {{< alert style="warning" >}}  To add multiple sections for one step please click on `Add section` button. This button is placed on the right side pannel.{{< /alert>}}
 
 ### Manipulate form steps
 1. To add a new step please click on `Add step` button. This button is placed on the right side pannel.
+1. t oremove step click on `Remove` button.
 1. To navigate between form's steps you can use `Back` and `Next` buttons placed on the bottom of the Forms builder UI.
 1. The `Preview` button will show you your form as it will look like.
 
