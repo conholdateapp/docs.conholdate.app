@@ -14,9 +14,54 @@ Imagine that you have two similar documents with few minor differences, with For
 The result from filling up the form can be obtained as PDF, DOC and DOCX (more formats coming soon) or emailed to preset email addresses.
 
 ## How to create Forms
-In order to create your own Form it is required to create two files: **docx** and **xml** with equal names.
+In order to create your own Form you can use our builtin form builder UI service or by uploading already created template which is consist of two files: **docx** and **xml** with equal names.
 For example: `my_form.docx` and `my_form.xml`
 {{< alert style="warning" >}}  Download our [form](/download?template=example-forms.zip) example for the further reference.{{< /alert>}}
+
+## How to create Form from Forms builder UI service
+To create a form using our builtin Forms builder please navigate to this [link](https://products.conholdate.app/assembly/new) and follow next steps:
+
+### Create form section
+1. In the top input enter form name.
+1. Click on `pen` icon to edit section tag. This tag is used in the .docx document in the place where you need to enter a user answer.
+1. If this section is required for filling check `required` checkbox.
+1. Enter section title.
+1. Enter section description if needed. 
+1. Enter a question. Also you can leave this field empty.
+1. Select one of the supported section types from the dropdown list.
+	> Paragraph
+	> Short answer
+	> Date
+	> Dropdown
+	> Multiple choise
+	> Radio
+1. If you have several sections on the same step you can change theirs order by using `Move Up` and `Move Down` buttons.
+1. To delete step you cab use `Remove` button.
+{{< alert style="warning" >}}  To add multiple sections for one step please click on `Add section` button. This button is placed on the right side pannel.{{< /alert>}}
+
+### Manipulate form steps
+1. To add a new step please click on `Add step` button. This button is placed on the right side pannel.
+1. t oremove step click on `Remove` button.
+1. To navigate between form's steps you can use `Back` and `Next` buttons placed on the bottom of the Forms builder UI.
+1. The `Preview` button will show you your form as it will look like.
+
+### Configure form settings
+1. To customize form settings click on `Edit settings button`. Here you can configure next:
+	> Allow / disallow downliading.
+	> Set download format.
+	> Enable / disable email results.
+	> Set email adress where to send results.
+	> Set file format in which results will be attached to the email.
+	
+### Add form document
+1. To add a document please click on `Go to Editor` button.
+1. Here you can upload existed **.docx** document or create a new one.
+1. Put section tags from a right side panel to the document content where you need to put their data.
+1. Click on `save` button to save the form.
+
+{{< alert style="warning" >}}After form is saved you will be able to download your form if you are not registered user. If you are a registered user you will be able to see your form in the `My Forms` section of your dashboard.{{< /alert>}}
+
+## How to create form manualy
 
 ### DOCX template
 DOCX template is your main template which holds static data/text along with dynamic data/variables.
