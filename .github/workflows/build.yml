@@ -19,6 +19,8 @@ jobs:
 
   build:
     runs-on: ubuntu-latest
+    env:
+      SRC_DIR: public
 
     steps:
       - uses: actions/checkout@v2
@@ -31,12 +33,12 @@ jobs:
       - name: Run and build Hugo
         run: |
           hugo --minify
-          rm $SRC_DIR/product-sitemap.xml
+          rm ${{ env.SRC_DIR }}/product-sitemap.xml
 
       - name: Deploy documentation
         uses: nogsantos/scp-deploy@master
         with:
-          src: public/*
+          src: ${{ env.SRC_DIR }}/*
           host: ${{ secrets.DOCS_SSH_HOST }}
           remote: ${{ secrets.DOCS_SSH_DIR }}
           user: ${{ secrets.DOCS_SSH_USER }}
