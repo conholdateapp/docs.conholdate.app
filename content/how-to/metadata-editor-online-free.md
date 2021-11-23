@@ -11,7 +11,7 @@ Add, remove and edit metadata in PDF, DOCX, XLSX, PPTX and over 60 document form
 
 ## How to edit documents metadata online
 To edit documents metadata registration is **not required**.  
-Online metadata editor is 100% **FREE** for both guest and registered users. However, by registering an account you can benifit from andvanced options and all premium features for free that are available **only** to registered users.
+Online metadata editor is 100% **FREE** for both guest and registered users. However, by registering an account you can benefit from advanced options and all premium features for free that are available **only** to registered users.
 
 ### Edit documents metadata online without registration
 1. Go to [Online Document Editor](https://products.conholdate.app/metadata) page.

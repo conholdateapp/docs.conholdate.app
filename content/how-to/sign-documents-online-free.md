@@ -11,7 +11,7 @@ All documents can be signed online with our electronic signature by document own
 
 ## How to sign documents online
 To sign documents registration is **not required**.  
-Online document signature is 100% **FREE** for both guest and registered users. However, by registering an account you can benifit from andvanced options and all premium features for free that are available **only** to registered users.
+Online document signature is 100% **FREE** for both guest and registered users. However, by registering an account you can benefit from advanced options and all premium features for free that are available **only** to registered users.
 {{< alert style="warning" >}}  Guests are required to enter their name in order to sign a document. For registered users this is done automatically.{{< /alert>}}
 
 ### Sign documents online without registration

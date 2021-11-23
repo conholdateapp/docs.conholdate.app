@@ -12,7 +12,7 @@ We offer fast, reliable and excellent quality document conversion.
 
 ## How to convert documents online
 To convert documents from one format to another registration is **not required**.  
-Online document conversion is 100% **FREE** for both guest and registered users. However, by registering an account you can benifit from andvanced options and all premium features for free that are available **only** to registered users.
+Online document conversion is 100% **FREE** for both guest and registered users. However, by registering an account you can benefit from advanced options and all premium features for free that are available **only** to registered users.
 
 ### Convert documents online without registration
 1. Go to [Online Document Conversion](https://products.conholdate.app/conversion) page.

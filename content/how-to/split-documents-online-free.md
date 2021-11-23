@@ -10,7 +10,7 @@ Manage documents like a pro by splitting your documents into multiple single-pag
 
 ## How to split documents online
 To split documents registration is **not required**.  
-Online document splitter is 100% **FREE** for both guest and registered users. However, by registering an account you can benifit from andvanced options and all premium features for free that are available **only** to registered users.
+Online document splitter is 100% **FREE** for both guest and registered users. However, by registering an account you can benefit from advanced options and all premium features for free that are available **only** to registered users.
 
 ### Split documents online without registration
 1. Go to [Online Document Splitter](https://products.conholdate.app/splitter) page.
@@ -33,14 +33,14 @@ In order to split documents using our free online built-in document splitter, fo
 1. Select pages to be exported into the new documents.
 1. Select split mode to split document into multiple one-page documents or extract all selected pages as single document.
 1. Click on `Split` button.
-1. After splitting is complite click on 'Download' button to get your result document.
+1. After splitting is complete click on 'Download' button to get your result document.
 
 ## Document splitter features
 Besides splitting documents online, our document splitter offers other useful features.
 
 ### Formats support
 We support all major formats for merging (pdf, doc, xls, docx, ppt, xlsx, pptx etc)
-See [Online Document Mergeer](https://products.conholdate.app/splitter#supported-formats) page for more information and a full list of all supported formats.
+See [Online Document Merger](https://products.conholdate.app/splitter#supported-formats) page for more information and a full list of all supported formats.
 
 ### Select pages
 Select pages to be exported into the new documents.

@@ -33,24 +33,24 @@ To create a form using our builtin Forms builder please navigate to this [link](
 	> Short answer
 	> Date
 	> Dropdown
-	> Multiple choise
+	> Multiple choice
 	> Radio
 1. If you have several sections on the same step you can change theirs order by using `Move Up` and `Move Down` buttons.
 1. To delete step you cab use `Remove` button.
 {{< alert style="warning" >}}  To add multiple sections for one step please click on `Add section` button. This button is placed on the right side pannel.{{< /alert>}}
 
 ### Manipulate form steps
-1. To add a new step please click on `Add step` button. This button is placed on the right side pannel.
-1. t oremove step click on `Remove` button.
+1. To add a new step please click on `Add step` button. This button is placed on the right side panel.
+1. To remove step click on `Remove` button.
 1. To navigate between form's steps you can use `Back` and `Next` buttons placed on the bottom of the Forms builder UI.
 1. The `Preview` button will show you your form as it will look like.
 
 ### Configure form settings
 1. To customize form settings click on `Edit settings button`. Here you can configure next:
-	> Allow / disallow downliading.
+	> Allow / disallow downloading.
 	> Set download format.
 	> Enable / disable email results.
-	> Set email adress where to send results.
+	> Set email address where to send results.
 	> Set file format in which results will be attached to the email.
 	
 ### Add form document
@@ -61,7 +61,7 @@ To create a form using our builtin Forms builder please navigate to this [link](
 
 {{< alert style="warning" >}}After form is saved you will be able to download your form if you are not registered user. If you are a registered user you will be able to see your form in the `My Forms` section of your dashboard.{{< /alert>}}
 
-## How to create form manualy
+## How to create form manually
 
 ### DOCX template
 DOCX template is your main template which holds static data/text along with dynamic data/variables.
@@ -128,7 +128,7 @@ See following XML example:
 This example has 2 steps, where first step has 2 questions with text input and text area and second step has one question with dropdown menu.
 
 ### Supported question types
-- input (text imput field)
+- input (text input field)
 - textarea (text area)
 - dropdown (dropdown)
 - checkbox (checkbox)
