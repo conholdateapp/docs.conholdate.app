@@ -1,6 +1,6 @@
 ---
 id: how-to
-title: Conholdate Documentation
+title: how-to
 weight: 1
 useLandingCss: true
 
