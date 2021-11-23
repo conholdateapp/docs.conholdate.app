@@ -1,6 +1,6 @@
 ---
 id: how-to
-title: how-to
+title: How-To
 weight: 1
 useLandingCss: true
 
