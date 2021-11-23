@@ -23,7 +23,9 @@
                         {{- end -}}
                     </div> <!-- /end of row -->
                 </div>
-                {{- partial "tableofcontents" . -}}
+                <!-- {{- if or (and (.Site.Params.toc) (ne .Site.Params.toc false)) (and (.Params.toc) (ne .Params.toc false)) }}
+                    {{- partial "tableofcontents" . -}}
+                {{end}} -->
 
             </div> <!-- /end of row -->
         </div> <!-- /end of container -->        
