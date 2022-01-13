@@ -3,7 +3,7 @@ id: metadata-editor-online-free
 title: Documents Metadata Editor
 menu:
   conholdate:
-    name: "Edit Documents Metadata" 
+    name: "Add, Edit and Remove Metadata" 
 ---
 
 High quality free document metadata editor online.  

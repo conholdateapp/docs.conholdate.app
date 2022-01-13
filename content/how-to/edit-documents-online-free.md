@@ -1,6 +1,6 @@
 ---
 id: edit-documents-online-free
-title: Edit Documents
+title: Edit Documents Online
 menu:
   conholdate:
     name: "Edit Documents" 

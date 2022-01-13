@@ -1,9 +1,9 @@
 ---
 id: assemble-forms-online-free
-title: Assemble Forms Online
+title: Build Forms Online
 menu:
   conholdate:
-    name: "Assemble Forms Online"   
+    name: "Build Forms"   
 ---
 
 Assemble your own forms and document wizards online made easy with our document assembly engine.
