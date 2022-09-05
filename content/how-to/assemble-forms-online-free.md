@@ -16,7 +16,7 @@ The result from filling up the form can be obtained as PDF, DOC and DOCX (more f
 ## How to create Forms
 In order to create your own Form you can use our builtin form builder UI service or by uploading already created template which is consist of two files: **docx** and **xml** with equal names.
 For example: `my_form.docx` and `my_form.xml`
-{{< alert style="warning" >}}  Download our [form](/download/example-forms.zip) example for the further reference.{{< /alert>}}
+{{< alert style="warning" >}}  Download our [form](https://products.conholdate.app/download/example-forms.zip) example for the further reference.{{< /alert>}}
 
 ## How to create Form from Forms builder UI service
 To create a form using our builtin Forms builder please navigate to this [link](https://products.conholdate.app/assembly/new) and follow next steps:
