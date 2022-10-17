@@ -69,6 +69,16 @@
       "Family": "view",
       "Key": "view",
       "Name": "View Documents"
+    },
+    {
+      "Family": "share-signatures",
+      "Key": "share-signatures",
+      "Name": "Share Document For Signing"
+    },
+    {
+      "Family": "invite-other-people-to-sing-your-document",
+      "Key": "invite-other-people-to-sing-your-document",
+      "Name": "Invite Other People To Sing Your Document"
     }
   ]
 }

@@ -13,15 +13,15 @@
         </div>
         <div class="navGroup">
             <h3 class="navGroupCategoryTitle">How to</h3>
-            {{ $currentPage := . }}         
-        <ul>
-            {{ range .Site.Menus.conholdate }}
-            <li class="{{- if eq .Page.RelPermalink  $currentPage.RelPermalink}} active{{end -}}">
-                <a href="{{ .URL }}">
-                    <span>{{ .Name }}</span>
-                </a>
-            </li>
-            {{ if .HasChildren }}
+            {{ $currentPage := . }}
+            <ul>
+                {{ range .Site.Menus.conholdate }}
+                <li class="{{- if eq .Page.RelPermalink  $currentPage.RelPermalink}} active{{end -}}">
+                    <a href="{{ .URL }}">
+                        <span>{{ .Name }}</span>
+                    </a>
+                </li>
+                {{ if .HasChildren }}
                 <ul class="sub-menu">
                     {{ range .Children }}
                     <li class="{{- if eq .Page.RelPermalink  $currentPage.RelPermalink}} active{{end -}}">
@@ -29,11 +29,36 @@
                     </li>
                     {{ end }}
                 </ul>
-            {{ end }}
+                {{ end }}
 
 
-            {{ end }}
-        </ul>
+                {{ end }}
+            </ul>
+
+        </div>
+        <div class="navGroup">
+            <h3 class="navGroupCategoryTitle">Dashboard</h3>
+            {{ $currentPage := . }}
+            <ul>
+                {{ range .Site.Menus.dashboard }}
+                <li class="{{- if eq .Page.RelPermalink  $currentPage.RelPermalink}} active{{end -}}">
+                    <a href="{{ .URL }}">
+                        <span>{{ .Name }}</span>
+                    </a>
+                </li>
+                {{ if .HasChildren }}
+                <ul class="sub-menu">
+                    {{ range .Children }}
+                    <li class="{{- if eq .Page.RelPermalink  $currentPage.RelPermalink}} active{{end -}}">
+                        <a href="{{ .URL }}">{{ .Name }}</a>
+                    </li>
+                    {{ end }}
+                </ul>
+                {{ end }}
+
+
+                {{ end }}
+            </ul>
 
         </div>
     </div>

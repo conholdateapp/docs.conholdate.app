@@ -55,22 +55,28 @@ enableGitInfo               = true
     GitHubDateFormat        = 'January 2, 2006'
 
     ProductFamilies = [ 			
-            { Key = "annotation",       Name = "Annotate Documents",		Url = "annotate-documents-online-free", Description = "Annotate and collaborate on your documents online for free." },
-			{ Key = "assemble",         Name = "Assemble Forms Online",     Url = "assemble-forms-online-free", Description = "Assemble your own forms and document wizards online made easy with our document assembly engine." },			
-			{ Key = "convert",          Name = "Convert Documents",         Url = "convert-documents-online-free", Description = "High quality free document online converter." },			
-			{ Key = "embed",          	Name = "Embed Documents",        	Url = "embed-documents-on-your-website", Description = "Display documents right from your website or blog." },			
-			{ Key = "edit",          	Name = "Edit Documents",        	Url = "edit-documents-online-free", Description = "High quality free document editor online." },			
-			{ Key = "metadata",         Name = "Edit Documents Metadata",   Url = "metadata-editor-online-free", Description = "High quality free document metadata editor online." },		
-			{ Key = "merge",			Name = "Merge Documents",			Url = "merge-documents-online-free", Description = "Merge PDF, DOCX, XLSX, PPTX and many more other document formats online for free without installing any additional software with our height quality advanced document merging engine." },		
-			{ Key = "manage",           Name = "Manage Documents",        	Url = "manage-documents", Description = "Access your documents from anywhere and from any device." },					
-			{ Key = "publish",          Name = "Publish Documents",         Url = "publish-documents-online-free", Description = "Online document library." },		
-			{ Key = "search",           Name = "Search Documents",        	Url = "full-text-search-documents-online-free", Description = "Search for documents or document's content using our advanced document full-text search engine." },		
-			{ Key = "share",            Name = "Share Documents",        	Url = "share-documents-online-free", Description = "With our FREE and unlimited document cloud storage. you can share any of your documents with your friends or colleagues via direct link, Facebook, Twitter or LinkedIn even if they do not have MS Office / OpenOffice installed." },		
-			{ Key = "sign",             Name = "Sign Documents",        	Url = "sign-documents-online-free", Description = "eSign Pdf, digital signature, electronic signature and much more. All documents can be signed online with our electronic signature by document owner or by sharing documents for e-signatures with registered users and guest users. " },		
-			{ Key = "split",            Name = "Split Documents",        	Url = "split-documents-online-free", Description = "Manage documents like a pro by splitting your documents into multiple single-pages documents or extract selected pages from document into single document. We support all major and most popular formats." },		
-			{ Key = "view",             Name = "View Documents",        	Url = "view-documents-online-free", Description = "View DOCX, XLSX, PPTX and over 100+ document formats online for free without installing any additional software with our height quality advanced document viewer engine." },		
+            { Key = "annotation",       Name = "Annotate Documents",		Url = "how-to/annotate-documents-online-free", Description = "Annotate and collaborate on your documents online for free." },
+			{ Key = "assemble",         Name = "Assemble Forms Online",     Url = "how-to/assemble-forms-online-free", Description = "Assemble your own forms and document wizards online made easy with our document assembly engine." },			
+			{ Key = "convert",          Name = "Convert Documents",         Url = "how-to/convert-documents-online-free", Description = "High quality free document online converter." },			
+			{ Key = "embed",          	Name = "Embed Documents",        	Url = "how-to/embed-documents-on-your-website", Description = "Display documents right from your website or blog." },			
+			{ Key = "edit",          	Name = "Edit Documents",        	Url = "how-to/edit-documents-online-free", Description = "High quality free document editor online." },			
+			{ Key = "metadata",         Name = "Edit Documents Metadata",   Url = "how-to/metadata-editor-online-free", Description = "High quality free document metadata editor online." },		
+			{ Key = "merge",			Name = "Merge Documents",			Url = "how-to/merge-documents-online-free", Description = "Merge PDF, DOCX, XLSX, PPTX and many more other document formats online for free without installing any additional software with our height quality advanced document merging engine." },		
+			{ Key = "manage",           Name = "Manage Documents",        	Url = "how-to/manage-documents", Description = "Access your documents from anywhere and from any device." },					
+			{ Key = "publish",          Name = "Publish Documents",         Url = "how-to/publish-documents-online-free", Description = "Online document library." },		
+			{ Key = "search",           Name = "Search Documents",        	Url = "how-to/full-text-search-documents-online-free", Description = "Search for documents or document's content using our advanced document full-text search engine." },		
+			{ Key = "share",            Name = "Share Documents",        	Url = "how-to/share-documents-online-free", Description = "With our FREE and unlimited document cloud storage. you can share any of your documents with your friends or colleagues via direct link, Facebook, Twitter or LinkedIn even if they do not have MS Office / OpenOffice installed." },		
+			{ Key = "sign",             Name = "Sign Documents",        	Url = "how-to/sign-documents-online-free", Description = "eSign Pdf, digital signature, electronic signature and much more. All documents can be signed online with our electronic signature by document owner or by sharing documents for e-signatures with registered users and guest users. " },		
+			{ Key = "split",            Name = "Split Documents",        	Url = "how-to/split-documents-online-free", Description = "Manage documents like a pro by splitting your documents into multiple single-pages documents or extract selected pages from document into single document. We support all major and most popular formats." },		
+			{ Key = "view",             Name = "View Documents",        	Url = "how-to/view-documents-online-free", Description = "View DOCX, XLSX, PPTX and over 100+ document formats online for free without installing any additional software with our height quality advanced document viewer engine." },		
+            { Key = "share-signatures", Name = "Share Signatures",        	Url = "dashboard/share-document-for-signing", Description = "Create and share document signing link. Almost any of your documents (except not supported file types) can be signed by any other user, for this purposes you can create and share signature link for it." },		
+            { Key = "invite-other-people-to-sing-your-document", Name = "Invite Other People To Sing Your Document", Url = "dashboard/invite-other-people-to-sing-your-document", Description = "Invite other users to sign your document via email or by sharing a direct link. For each signer will be created a new copy of the document what will garanty no one else except you and signer will see signed version of the document." },		
+            { Key = "manage-sent-signature-invitations",         Name = "Manage Sent Signature Invitations",         Url = "dashboard/manage-sent-signature-invitations", Description = "Manage sent invitations for document signing by user name and email, remove invinttion and filter them." },		
+            { Key = "manage-invites",                            Name = "Manage Invites",                            Url = "dashboard/manage-invites", Description = "In this area you can open shared with you documets for signing or reject invitation." },		
         ]
 
 [Params.Sitemap]
 	changeFreq              = "weekly"
 	priority                = 0.5
+    
+    
