@@ -39,7 +39,7 @@ jobs:
         uses: nogsantos/scp-deploy@master
         with:
           src: ${{ env.SRC_DIR }}/*
-          host: ${{ secrets.DOCS_SSH_HOST }}
-          remote: ${{ secrets.DOCS_SSH_DIR }}
-          user: ${{ secrets.DOCS_SSH_USER }}
-          key: ${{ secrets.DOCS_SSH_KEY }}
+          host: ${{ secrets.PROD_HOST }}
+          remote: /var/www/docs.conholdate.app
+          user: ${{ secrets.PROD_USER }}
+          key: ${{ secrets.PROD_KEY }}
